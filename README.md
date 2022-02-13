@@ -1,6 +1,6 @@
 # KarateAutomateUdemy
 
-UI Angular (if you want to makesure any data changes): https://github.com/gothinkster/angular-realworld-example-app
+UI Angular: https://github.com/gothinkster/angular-realworld-example-app
 
 How to run?
 1) Run with tags

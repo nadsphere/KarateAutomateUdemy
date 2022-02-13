@@ -2,11 +2,11 @@ Feature: Hooks
 
 #  Before hooks
   Background: hooks
-#    * def result = call read('classpath:Helpers/dummy.feature')
+#    * def result = call read('classpath:helpers/dummy.feature')
 #    * def username = result.username
 
 #    after hooks
-    * configure afterScenario = function(){ karate.call('classpath:Helpers/dummy.feature') }
+    * configure afterScenario = function(){ karate.call('classpath:helpers/dummy.feature') }
 #    * configure afterScenario = function(){ karate.log('After scenario test') }
     * configure afterFeature =
     """

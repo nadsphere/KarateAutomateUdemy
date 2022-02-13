@@ -1,12 +1,12 @@
-@debug
 Feature: Hooks
+
 #  Before hooks
   Background: hooks
-#    * def result = call read('classpath:Helpers/dummy.feature')
+#    * def result = call read('classpath:helpers/dummy.feature')
 #    * def username = result.username
 
 #    after hooks
-    * configure afterScenario = function(){ karate.call('classpath:Helpers/dummy.feature') }
+    * configure afterScenario = function(){ karate.call('classpath:helpers/dummy.feature') }
 #    * configure afterScenario = function(){ karate.log('After scenario test') }
     * configure afterFeature =
     """
@@ -22,7 +22,3 @@ Feature: Hooks
   Scenario: Second Scenario
 #    * print username
     * print 'This is second scenario'
-
-#    Note:
-#  pake print username error karena yg variable sia username ga kedefinesebelumnya (masaah versi di karatenya)
-#  as insted cob pake yg consol kata yg di Q&A-nya

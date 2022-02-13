@@ -1,11 +1,10 @@
-@parallel=false
 Feature: Sign up new user
   Background: Define URL
-    * def dataGenerator = Java.type('Helpers.DataGenerator')
+    * def dataGenerator = Java.type('helpers.DataGenerator')
     * def randomEmail = dataGenerator.getRandomEmail()
     * def randomUname = dataGenerator.getRandomUsername()
     * url apiUrl
-  @parallel=false
+
   Scenario: New User Sign up
     And path 'users'
     And request
@@ -33,7 +32,7 @@ Feature: Sign up new user
     }
     """
 
-  @parallel=false
+
   Scenario Outline: Validate Sign Up error messages
     Given path 'users'
     And request

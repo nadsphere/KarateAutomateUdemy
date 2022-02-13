@@ -19,7 +19,6 @@ Feature: Tests for the Home Page
       And path 'articles'
       When method GET
       Then status 200
-#      And match response == {"articles": "#array", "articlesCount": 10}
       And match each response.articles ==
       """
       {
@@ -71,7 +70,7 @@ Feature: Tests for the Home Page
     When method GET
     Then status 200
 
-#  @debug
+  @debug
   Scenario: Sleep call
     * def sleep = function(pause){ java.lang.Thread.sleep(pause) }
 

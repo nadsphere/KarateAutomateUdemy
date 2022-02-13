@@ -19,7 +19,6 @@ Feature: Tests for the Home Page
       And path 'articles'
       When method GET
       Then status 200
-#      And match response == {"articles": "#array", "articlesCount": 10}
       And match each response.articles ==
       """
       {

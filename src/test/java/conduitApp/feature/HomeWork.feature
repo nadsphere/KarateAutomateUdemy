@@ -1,10 +1,10 @@
-#@debug
+
 Feature: Home Work
     Background: Preconditions
       * url apiUrl
-      * def timeValidator = read('classpath:Helpers/time-validator.js')
+      * def timeValidator = read('classpath:helpers/time-validator.js')
       * def globalArticleReqBody = read('classpath:json/homeArticleRequest.json')
-      * def dataGenerator = Java.type('Helpers.DataGenerator')
+      * def dataGenerator = Java.type('helpers.DataGenerator')
       * def randomComment = dataGenerator.getRandomArticleValues().body
 
     Scenario: Favorite articles

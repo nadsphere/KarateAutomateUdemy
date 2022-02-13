@@ -73,8 +73,8 @@ $(document).ready(function() {
   </thead>
   <tbody>
     <tr class="info">
-      <td>DemoApp</td>
-      <td>13 Feb 2022, 11:55</td>
+      <td>Conduit Application</td>
+      <td>13 Feb 2022, 14:03</td>
     </tr>
   </tbody>
 </table>
@@ -127,18 +127,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@debug</td>
-          <td      class="passed"    >10</td>
+          <td      class="passed"    >6</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">10</td>
+          <td class="total">6</td>
 
-          <td  class="passed"    >2</td>
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td class="total">2</td>
+          <td class="total">1</td>
 
-          <td class="duration" data-value="270861500">0.270</td>
+          <td class="duration" data-value="5902591000">5.902</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -171,7 +171,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_3445268850.html">conduitApp/feature/Hooks.feature</a>
+      <a href="report-feature_3370388602.html">conduitApp/feature/HomePage.feature</a>
     </div>
 
 
@@ -181,14 +181,14 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.206</span>
+  <span class="lead-duration duration">5.902</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">First Scenario</span>
+  <span class="name">Sleep call</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -222,9 +222,90 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">print 'This is first scenario'</span>
+  <span class="name">def sleep = function(pause){ java.lang.Thread.sleep(pause) }</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">params {limit: 10, offset:0}</span>
 
   <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">path 'articles'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+
+  <span class="lead-duration duration">0.858</span>
 
 </div>
 
@@ -242,7 +323,33 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>11:55:19.312 [print] This is first scenario 
+        <pre>14:03:42.611 request:
+1 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzM1ODIyLCJleHAiOjE2NDk5MTk4MjJ9.Ou2Ub4g40frr1Y-CIPUOiG-kdqhIGul_IDZrlwa7KFo
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:03:43.462 response time in milliseconds: 843
+1 &lt; 200
+1 &lt; Date: Sun, 13 Feb 2022 07:03:44 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;9d5-FyZ+GJ6XPuzwQzlXrZZXjehuGtw&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=XosNTjkJlMocK7dgIVNIwlPNJ0cugocwE%2B16C7qqDCWzpOqokR01vWq%2FTH9SSSxhdiobDTcWzjrCHmW02Q%2F4%2FMBh65FSpQUaZAT7OUMlxNoLB1Z7vsG05lWJw8jcoqMzAEWQ&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6dcc32cf9bae4da7-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;This-is-title-21074&quot;,&quot;title&quot;:&quot;This is title&quot;,&quot;description&quot;:&quot;ini hanya judul&quot;,&quot;body&quot;:&quot;isi isi text aja&quot;,&quot;createdAt&quot;:&quot;2022-02-06T11:26:42.054Z&quot;,&quot;updatedAt&quot;:&quot;2022-02-06T11:26:42.054Z&quot;,&quot;tagList&quot;:[],&quot;author&quot;:{&quot;username&quot;:&quot;admoons&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false},&quot;favoritesCount&quot;:1,&quot;favorited&quot;:true},{&quot;slug&quot;:&quot;Ballabar-21074&quot;,&quot;title&quot;:&quot;Ballabar&quot;,&quot;description&quot;:&quot;Meereen&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;createdAt&quot;:&quot;2022-02-06T07:04:34.418Z&quot;,&quot;updatedAt&quot;:&quot;2022-02-06T07:04:34.418Z&quot;,&quot;tagList&quot;:[],&quot;author&quot;:{&quot;username&quot;:&quot;admoons&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false},&quot;favoritesCount&quot;:0,&quot;favorited&quot;:false},{&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;tagList&quot;:[&quot;implementations&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false},&quot;favoritesCount&quot;:1108,&quot;favorited&quot;:false},{&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false},&quot;favoritesCount&quot;:711,&quot;favorited&quot;:false},{&quot;slug&quot;:&quot;Welcome-to-RealWorld-project-1&quot;,&quot;title&quot;:&quot;Welcome to RealWorld project&quot;,&quot;description&quot;:&quot;Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more&quot;,&quot;body&quot;:&quot;See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec&quot;,&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;tagList&quot;:[&quot;welcome&quot;,&quot;introduction&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false},&quot;favoritesCount&quot;:463,&quot;favorited&quot;:false}],&quot;articlesCount&quot;:5}
 </pre>
       </div>
     </div>
@@ -255,193 +362,14 @@ $(document).ready(function() {
 
 
       </div>
-      <div class="step">
-
-
-<div class="brief step-name- passed">
-  <span class="keyword indention"></span>
-  <span class="name">Helpers/dummy.feature</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-&amp;gt; * passed">
-  <span class="keyword indention">&gt; *</span>
-  <span class="name">def dataGenerator = Java.type('Helpers.DataGenerator')</span>
-
-  <span class="lead-duration duration">0.007</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-&amp;gt; * passed">
-  <span class="keyword indention">&gt; *</span>
-  <span class="name">def username = dataGenerator.getRandomUsername()</span>
-
-  <span class="lead-duration duration">0.194</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-&amp;gt; * passed">
-  <span class="keyword indention">&gt; *</span>
-  <span class="name">print username</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details">
-        <pre>11:55:19.531 [print] suzanna.walker 
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3445268850.html">conduitApp/feature/Hooks.feature</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_4075208210.html">@debug</a>
-</div>
-
-
-  <span class="lead-duration duration">0.064</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Second Scenario</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-5" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-6" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">print 'This is second scenario'</span>
+  <span class="name">eval sleep(5000)</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">5.039</span>
 
 </div>
 
@@ -453,17 +381,6 @@ $(document).ready(function() {
 
 
 
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>11:55:19.561 [print] This is second scenario 
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -475,9 +392,9 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name- passed">
-  <span class="keyword indention"></span>
-  <span class="name">Helpers/dummy.feature</span>
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -491,98 +408,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-&amp;gt; * passed">
-  <span class="keyword indention">&gt; *</span>
-  <span class="name">def dataGenerator = Java.type('Helpers.DataGenerator')</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-&amp;gt; * passed">
-  <span class="keyword indention">&gt; *</span>
-  <span class="name">def username = dataGenerator.getRandomUsername()</span>
-
-  <span class="lead-duration duration">0.060</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-&amp;gt; * passed">
-  <span class="keyword indention">&gt; *</span>
-  <span class="name">print username</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-8" class="collapse collapsable-details">
-        <pre>11:55:19.631 [print] stevie.luettgen 
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 

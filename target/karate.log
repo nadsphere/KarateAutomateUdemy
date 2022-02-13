@@ -1,0 +1,41 @@
+11:55:13.070 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+11:55:14.881 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:55:16.401 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:55:16.421 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+11:55:17.221 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"admoons@mail.com","password":"admin123"}}
+
+11:55:19.291 [main] DEBUG com.intuit.karate - response time in milliseconds: 2064
+1 < 200
+1 < Date: Sun, 13 Feb 2022 04:55:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"20d-5MlrkD2Pv/r44BPgrZ94Y+NVpkQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q0k6duNFmsx55CyK1Mfd%2BQZOTKQHc%2FmIWhta6ncwbqcyPgGNdf0HIYM9%2BaGbUkp9Ehqa2gkJ9SEmLIWiiQRxT4XsWQOkrhO9V4wQEViW3YlrvaWv0AO2Iyy6ysL60G6MhiSJ"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcb76b4eff901c8-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzI4MTE5LCJleHAiOjE2NDk5MTIxMTl9.jTFoi2K6IcS24D6_jvcCgg62GugoPb1dUJ9fpt3JFtQ"}}
+11:55:19.301 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+11:55:19.312 [main] INFO  com.intuit.karate - [print] This is first scenario 
+11:55:19.531 [main] INFO  com.intuit.karate - [print] suzanna.walker 
+11:55:19.551 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:55:19.561 [main] INFO  com.intuit.karate - [print] This is second scenario 
+11:55:19.631 [main] INFO  com.intuit.karate - [print] stevie.luettgen 
+11:55:19.631 [main] INFO  com.intuit.karate - After feature test 
+11:55:21.274 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (0 remaining) classpath:conduitApp/feature/Hooks.feature
+11:55:21.282 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete

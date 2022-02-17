@@ -70,7 +70,7 @@ Feature: Tests for the Home Page
     When method GET
     Then status 200
 
-  @debug
+#  @debug
   Scenario: Sleep call
     * def sleep = function(pause){ java.lang.Thread.sleep(pause) }
 

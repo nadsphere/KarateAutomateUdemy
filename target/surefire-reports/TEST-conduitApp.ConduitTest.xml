@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduitApp.ConduitTest" time="13.507" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduitApp.ConduitTest" time="14.297" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nadia\AppData\Local\Temp\surefire11162187576624607050\surefirebooter3612379445215973063.jar C:\Users\Nadia\AppData\Local\Temp\surefire11162187576624607050 2022-02-13T14-03-35_867-jvmRun1 surefire7192583742099507653tmp surefire_07487564810911557543tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nadia\AppData\Local\Temp\surefire9991272180060560153\surefirebooter976551697105268969.jar C:\Users\Nadia\AppData\Local\Temp\surefire9991272180060560153 2022-02-13T21-08-23_528-jvmRun1 surefire12658512884962365082tmp surefire_017847793700826504791tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\test-classes;C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\classes;C:\Users\Nadia\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\Nadia\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\Nadia\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\Nadia\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\Nadia\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\Nadia\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\Nadia\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\Nadia\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Nadia\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Nadia\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Nadia\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Nadia\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\Nadia\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Nadia\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Nadia\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Nadia\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Nadia\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Nadia\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\Nadia\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\Nadia\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\Nadia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Nadia\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Nadia\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Nadia\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Nadia\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Nadia\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\Nadia\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Nadia\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Nadia\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Nadia\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Nadia\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Nadia\.m2\repository\net\masterthought\cucumber-reporting\5.3.1\cucumber-reporting-5.3.1.jar;C:\Users\Nadia\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\Nadia\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\Nadia\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\Nadia\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\Nadia\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\Nadia\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Nadia\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Nadia\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Nadia\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Nadia\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Nadia\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\Nadia\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\Nadia\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\Nadia\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Nadia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Nadia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Nadia\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\Nadia\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\Nadia\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nadia\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Nadia\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Nadia\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Nadia\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="karate.options" value="--tags @debug"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nadia\AppData\Local\Temp\surefire11162187576624607050\surefirebooter3612379445215973063.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nadia\AppData\Local\Temp\surefire9991272180060560153\surefirebooter976551697105268969.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -50,12 +50,345 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Nadia\AppData\Local\Microsoft\WindowsApps;C:\Users\Nadia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\opt\apache-maven-3.8.4\bin;C:\msys64\mingw64\bin;C:\Users\Nadia\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Nadia\AppData\Local\Microsoft\WindowsApps;C:\Users\Nadia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\opt\apache-maven-3.8.4\bin;C:\msys64\mingw64\bin;C:\Users\Nadia\AppData\Roaming\npm;C:\Users\Nadia\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="13.491"/>
+  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="14.288">
+    <failure message="status code was: 200, expected: 422, response time in milliseconds: 849, url: https://api.realworld.io/api/users, response: &#10;{&quot;user&quot;:{&quot;email&quot;:&quot;userkarate&quot;,&quot;username&quot;:&quot;jesenia.kuphal&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0&quot;}}&#10;classpath:conduitApp/feature/SignUp.feature:49&#10;status code was: 200, expected: 422, response time in milliseconds: 992, url: https://api.realworld.io/api/users, response: &#10;{&quot;user&quot;:{&quot;email&quot;:&quot;robt49@test.com&quot;,&quot;username&quot;:&quot;userkarate12345678901&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg&quot;}}&#10;classpath:conduitApp/feature/SignUp.feature:49&#10;status code was: 200, expected: 422, response time in milliseconds: 966, url: https://api.realworld.io/api/users, response: &#10;{&quot;user&quot;:{&quot;email&quot;:&quot;yan11@test.com&quot;,&quot;username&quot;:&quot;tatiana.lemke&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ&quot;}}&#10;classpath:conduitApp/feature/SignUp.feature:49 ==&gt; expected: &lt;0&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 422, response time in milliseconds: 849, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
+classpath:conduitApp/feature/SignUp.feature:49
+status code was: 200, expected: 422, response time in milliseconds: 992, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
+classpath:conduitApp/feature/SignUp.feature:49
+status code was: 200, expected: 422, response time in milliseconds: 966, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
+classpath:conduitApp/feature/SignUp.feature:49 ==> expected: <0> but was: <3>
+	at conduitApp.ConduitTest.testParallel(ConduitTest.java:26)
+]]></failure>
+    <system-out><![CDATA[21:08:24.666 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+21:08:25.557 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:08:26.554 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:26.561 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+21:08:26.950 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"admoons@mail.com","password":"admin123"}}
+
+21:08:29.396 [main] DEBUG com.intuit.karate - response time in milliseconds: 2442
+1 < 200
+1 < Date: Sun, 13 Feb 2022 14:08:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"20d-ja3nZulAo5u9+Pw/9El4kKpbzHI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2khTjhGIBqUq3LvKCErqid2bdVxOHgcJ6PFVX8R8Rt1C01CRBFcpvHJuzG6lUQQfH05i8eIw5b51mT2Ab58D5asjHUOn%2B5vyEyldrp%2BXK1Jcyn40%2BceXPpFzfUxzzwMxovfY"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea1070e6991a2-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw"}}
+21:08:29.407 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+21:08:29.590 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 84
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"waylon23@test.com","password":"user1234","username":"userkarate"}}
+
+21:08:31.184 [main] DEBUG com.intuit.karate - response time in milliseconds: 1594
+1 < 422
+1 < Date: Sun, 13 Feb 2022 14:08:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZitFTLq86XNf2YfEpDPxS0ruF9AELMBT5nOcz3BXZaLWRtWdjO382BBsqHuQaR4ctNK17s9af44kk1zdzb2LHb%2BF7BsapxWuF4dTg%2BAVspk3lP754t9W0vCea%2F8iuBnVgsKr"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea115fe8901c4-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+21:08:31.210 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:31.283 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"userkarate@mail.com","password":"user1234","username":"sonny.kris"}}
+
+21:08:31.882 [main] DEBUG com.intuit.karate - response time in milliseconds: 598
+1 < 422
+1 < Date: Sun, 13 Feb 2022 14:08:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DFcKkY9tJC5JkoWoFUCOSv0DGyCMv1qsVwqBC060sOO9Dp7n%2Fw6u%2FGkQ72J0PNEf6cnL4gJQ6MGZQ5ObIuSGzwMqBLEr2cuHSug%2BGMW29nxjiBby7VlEBItCMnUofJh%2BXwug"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea11a3a8087b4-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+21:08:31.894 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:31.947 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 81
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"userkarate","password":"user1234","username":"jesenia.kuphal"}}
+
+21:08:32.801 [main] DEBUG com.intuit.karate - response time in milliseconds: 849
+1 < 200
+1 < Date: Sun, 13 Feb 2022 14:08:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1ad-DFpAeC0bsD+e2NP7U9yISda+2hU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=38PcAI%2FecLbd3l8mts8E4X5mvF1%2BgdvBLllb9CyKTDpSLQ8TNEbQtLueA%2F3ZUoWpmIozZiqpaYtX3OY476x%2FT60I%2F%2BBCf1SqvaZRc7PowlU%2Bia3ac5Ycj2tCJDaureZyzaaG"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea11e7e284906-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
+21:08:32.803 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:49
+Then status 422
+status code was: 200, expected: 422, response time in milliseconds: 849, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
+classpath:conduitApp/feature/SignUp.feature:49
+21:08:32.810 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:32.856 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"robt49@test.com","password":"user1234","username":"userkarate12345678901"}}
+
+21:08:33.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 992
+1 < 200
+1 < Date: Sun, 13 Feb 2022 14:08:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1c9-v7BjLrKCPToMhe0/VD3VR6NjmkA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sTmLY50pjpRBEvZjfIUP9QYBWPXkSNmop3gEvOEx6Uuiikjs30a8d2dR%2FMvE9t%2FPqgiMTPYlGJILTUPRi%2FHnVT%2FMTb7tWpwrgWk40gvsXByuWrwxkPFZ4crCYoQBgkuNaB%2BR"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea12408a991bf-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
+21:08:33.852 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:49
+Then status 422
+status code was: 200, expected: 422, response time in milliseconds: 992, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
+classpath:conduitApp/feature/SignUp.feature:49
+21:08:33.867 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:33.916 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 80
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"yan11@test.com","password":"user","username":"tatiana.lemke"}}
+
+21:08:34.883 [main] DEBUG com.intuit.karate - response time in milliseconds: 966
+1 < 200
+1 < Date: Sun, 13 Feb 2022 14:08:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1b4-M9/ZIYLFSuUvqsNfFNuhwe4Tlfw"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UNaGr17kR1sS91CjcRRTcfCwJliSsP6o7zMYgdmOPj0Fnjy96znhIJU%2FMsoHZo1QSyR%2BGHOxcb62vpQ%2BrxTOR7FQP9TQ8BE3Y1jl9a5f59D0N9i%2BEkqEdW1Jg5Cky%2BpKw4L8"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea12aabee4983-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
+21:08:34.885 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:49
+Then status 422
+status code was: 200, expected: 422, response time in milliseconds: 966, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
+classpath:conduitApp/feature/SignUp.feature:49
+21:08:34.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:34.935 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"user1234","username":"kathern.kshlerin"}}
+
+21:08:35.501 [main] DEBUG com.intuit.karate - response time in milliseconds: 565
+1 < 422
+1 < Date: Sun, 13 Feb 2022 14:08:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 39
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tDIRAu537j6zN9Qj2ttE4XR1DebjRfRlBQ6bJpmFJ85o8r%2B3Q07Tgby1SYyhQn%2B9okl%2B5XMHqGf1xyYBffeGwgotcAhEUl7WW%2FgNyW9C2c8yxzBCOvI9ZvWk3pS1RSOUEpM2"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea1310e866be8-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["can't be blank"]}}
+21:08:35.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:35.537 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 78
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"elvira70@test.com","password":"","username":"dorian.yundt"}}
+
+21:08:36.098 [main] DEBUG com.intuit.karate - response time in milliseconds: 561
+1 < 422
+1 < Date: Sun, 13 Feb 2022 14:08:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 42
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p1tSuOAgr5homzZmAKpV2GVOh%2Bn1B6WTpWWtMwOsOjP5NKJYuteBqwzw8N4mhzYPCYCIUA5Es466bmfza4x9ycHHJEQzGavX5PlsndOcckxliHcFJSbpFXGwu0pigtGxyFs%2F"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea134cdf74967-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"password":["can't be blank"]}}
+21:08:36.108 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:08:36.142 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"emory24@test.com","password":"user1234","username":""}}
+
+21:08:36.691 [main] DEBUG com.intuit.karate - response time in milliseconds: 549
+1 < 422
+1 < Date: Sun, 13 Feb 2022 14:08:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 42
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=s%2FBq09mzROHB6smORgDGLGPeJPYN6%2FZ5y5LAO9G7E9SMCQVSqbCNQGUMgvr5QM%2BD0W%2Bqs3qS%2Fr6brCuElI3niPh1uQ3I8qyanmKrV7dJJR7NH2AzE7ypZEkJqF2briwLyILv"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6dcea13889b9469d-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["can't be blank"]}}
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/SignUp.feature
+scenarios:  8 | passed:  5 | failed:  3 | time: 7.1887
+---------------------------------------------------------
+
+21:08:37.768 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 6 (0 remaining) classpath:conduitApp/feature/SignUp.feature
+21:08:37.771 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+Karate version: 1.1.0
+======================================================
+elapsed:  13.11 | threads:    1 | thread time: 7.19 
+features:     1 | skipped:    5 | efficiency: 0.55
+scenarios:    8 | passed:     5 | failed: 3
+======================================================
+>>> failed features:
+status code was: 200, expected: 422, response time in milliseconds: 849, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
+classpath:conduitApp/feature/SignUp.feature:49
+status code was: 200, expected: 422, response time in milliseconds: 992, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
+classpath:conduitApp/feature/SignUp.feature:49
+status code was: 200, expected: 422, response time in milliseconds: 966, url: https://api.realworld.io/api/users, response: 
+{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
+classpath:conduitApp/feature/SignUp.feature:49
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///C:/Users/Nadia/Documents/GitHub/KarateAutomateUdemy/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+    <system-err><![CDATA[Feb 13, 2022 9:08:38 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File 'C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\karate-reports\conduitApp.feature.SignUp.json' contains 1 features
+]]></system-err>
+  </testcase>
 </testsuite>

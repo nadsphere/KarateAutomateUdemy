@@ -1,8 +1,8 @@
-21:08:24.666 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
-21:08:25.557 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:08:26.554 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:26.561 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-21:08:26.950 [main] DEBUG com.intuit.karate - request:
+17:44:43.085 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:44:44.591 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:44:45.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:44:46.000 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+17:44:46.692 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 59
@@ -12,278 +12,24 @@
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"admoons@mail.com","password":"admin123"}}
 
-21:08:29.396 [main] DEBUG com.intuit.karate - response time in milliseconds: 2442
+17:44:48.272 [main] DEBUG com.intuit.karate - response time in milliseconds: 1554
 1 < 200
-1 < Date: Sun, 13 Feb 2022 14:08:30 GMT
+1 < Date: Thu, 17 Feb 2022 10:44:48 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"20d-ja3nZulAo5u9+Pw/9El4kKpbzHI"
+1 < Etag: W/"20d-Wo+bNlcpoCOJIJz7f8eY6WELZjg"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2khTjhGIBqUq3LvKCErqid2bdVxOHgcJ6PFVX8R8Rt1C01CRBFcpvHJuzG6lUQQfH05i8eIw5b51mT2Ab58D5asjHUOn%2B5vyEyldrp%2BXK1Jcyn40%2BceXPpFzfUxzzwMxovfY"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B5xEZdah1GLCQo5URrzKhh%2FXQWijTp1YgBHmOKqePIPSQcpDqPRPvEN2xVsnxhIMLDfUAVq06ZuEbYhO4RbjfsI17HwoiAZsceMeytcB1jg3eI9xjdIsPsEyaKqBVosk9c1K"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6dcea1070e6991a2-SIN
+1 < CF-RAY: 6dee6c29caf4499c-SIN
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw"}}
-21:08:29.407 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
-21:08:29.590 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 84
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"waylon23@test.com","password":"user1234","username":"userkarate"}}
-
-21:08:31.184 [main] DEBUG com.intuit.karate - response time in milliseconds: 1594
-1 < 422
-1 < Date: Sun, 13 Feb 2022 14:08:32 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 50
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZitFTLq86XNf2YfEpDPxS0ruF9AELMBT5nOcz3BXZaLWRtWdjO382BBsqHuQaR4ctNK17s9af44kk1zdzb2LHb%2BF7BsapxWuF4dTg%2BAVspk3lP754t9W0vCea%2F8iuBnVgsKr"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea115fe8901c4-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"username":["has already been taken"]}}
-21:08:31.210 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:31.283 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 86
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"userkarate@mail.com","password":"user1234","username":"sonny.kris"}}
-
-21:08:31.882 [main] DEBUG com.intuit.karate - response time in milliseconds: 598
-1 < 422
-1 < Date: Sun, 13 Feb 2022 14:08:32 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 47
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DFcKkY9tJC5JkoWoFUCOSv0DGyCMv1qsVwqBC060sOO9Dp7n%2Fw6u%2FGkQ72J0PNEf6cnL4gJQ6MGZQ5ObIuSGzwMqBLEr2cuHSug%2BGMW29nxjiBby7VlEBItCMnUofJh%2BXwug"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea11a3a8087b4-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"email":["has already been taken"]}}
-21:08:31.894 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:31.947 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 81
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"userkarate","password":"user1234","username":"jesenia.kuphal"}}
-
-21:08:32.801 [main] DEBUG com.intuit.karate - response time in milliseconds: 849
-1 < 200
-1 < Date: Sun, 13 Feb 2022 14:08:33 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"1ad-DFpAeC0bsD+e2NP7U9yISda+2hU"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=38PcAI%2FecLbd3l8mts8E4X5mvF1%2BgdvBLllb9CyKTDpSLQ8TNEbQtLueA%2F3ZUoWpmIozZiqpaYtX3OY476x%2FT60I%2F%2BBCf1SqvaZRc7PowlU%2Bia3ac5Ycj2tCJDaureZyzaaG"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea11e7e284906-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
-21:08:32.803 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:49
-Then status 422
-status code was: 200, expected: 422, response time in milliseconds: 849, url: https://api.realworld.io/api/users, response: 
-{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
-classpath:conduitApp/feature/SignUp.feature:49
-21:08:32.810 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:32.856 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 93
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"robt49@test.com","password":"user1234","username":"userkarate12345678901"}}
-
-21:08:33.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 992
-1 < 200
-1 < Date: Sun, 13 Feb 2022 14:08:34 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"1c9-v7BjLrKCPToMhe0/VD3VR6NjmkA"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sTmLY50pjpRBEvZjfIUP9QYBWPXkSNmop3gEvOEx6Uuiikjs30a8d2dR%2FMvE9t%2FPqgiMTPYlGJILTUPRi%2FHnVT%2FMTb7tWpwrgWk40gvsXByuWrwxkPFZ4crCYoQBgkuNaB%2BR"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea12408a991bf-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
-21:08:33.852 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:49
-Then status 422
-status code was: 200, expected: 422, response time in milliseconds: 992, url: https://api.realworld.io/api/users, response: 
-{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
-classpath:conduitApp/feature/SignUp.feature:49
-21:08:33.867 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:33.916 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 80
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"yan11@test.com","password":"user","username":"tatiana.lemke"}}
-
-21:08:34.883 [main] DEBUG com.intuit.karate - response time in milliseconds: 966
-1 < 200
-1 < Date: Sun, 13 Feb 2022 14:08:35 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"1b4-M9/ZIYLFSuUvqsNfFNuhwe4Tlfw"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UNaGr17kR1sS91CjcRRTcfCwJliSsP6o7zMYgdmOPj0Fnjy96znhIJU%2FMsoHZo1QSyR%2BGHOxcb62vpQ%2BrxTOR7FQP9TQ8BE3Y1jl9a5f59D0N9i%2BEkqEdW1Jg5Cky%2BpKw4L8"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea12aabee4983-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
-21:08:34.885 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:49
-Then status 422
-status code was: 200, expected: 422, response time in milliseconds: 966, url: https://api.realworld.io/api/users, response: 
-{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
-classpath:conduitApp/feature/SignUp.feature:49
-21:08:34.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:34.935 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 73
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"","password":"user1234","username":"kathern.kshlerin"}}
-
-21:08:35.501 [main] DEBUG com.intuit.karate - response time in milliseconds: 565
-1 < 422
-1 < Date: Sun, 13 Feb 2022 14:08:36 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 39
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tDIRAu537j6zN9Qj2ttE4XR1DebjRfRlBQ6bJpmFJ85o8r%2B3Q07Tgby1SYyhQn%2B9okl%2B5XMHqGf1xyYBffeGwgotcAhEUl7WW%2FgNyW9C2c8yxzBCOvI9ZvWk3pS1RSOUEpM2"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea1310e866be8-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"email":["can't be blank"]}}
-21:08:35.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:35.537 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 78
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"elvira70@test.com","password":"","username":"dorian.yundt"}}
-
-21:08:36.098 [main] DEBUG com.intuit.karate - response time in milliseconds: 561
-1 < 422
-1 < Date: Sun, 13 Feb 2022 14:08:37 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 42
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p1tSuOAgr5homzZmAKpV2GVOh%2Bn1B6WTpWWtMwOsOjP5NKJYuteBqwzw8N4mhzYPCYCIUA5Es466bmfza4x9ycHHJEQzGavX5PlsndOcckxliHcFJSbpFXGwu0pigtGxyFs%2F"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea134cdf74967-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"password":["can't be blank"]}}
-21:08:36.108 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:08:36.142 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ0NzYxMzEwLCJleHAiOjE2NDk5NDUzMTB9.JVGApXpzD3IGNxQ8eudbOtKcfK_ajl9KS1G0WDco2Xw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 73
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"emory24@test.com","password":"user1234","username":""}}
-
-21:08:36.691 [main] DEBUG com.intuit.karate - response time in milliseconds: 549
-1 < 422
-1 < Date: Sun, 13 Feb 2022 14:08:37 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 42
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=s%2FBq09mzROHB6smORgDGLGPeJPYN6%2FZ5y5LAO9G7E9SMCQVSqbCNQGUMgvr5QM%2BD0W%2Bqs3qS%2Fr6brCuElI3niPh1uQ3I8qyanmKrV7dJJR7NH2AzE7ypZEkJqF2briwLyILv"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6dcea13889b9469d-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"username":["can't be blank"]}}
-21:08:37.768 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 6 (0 remaining) classpath:conduitApp/feature/SignUp.feature
-21:08:37.771 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MDk0Njg4LCJleHAiOjE2NTAyNzg2ODh9.nKzMvJoqPxo8yF47v39Sr2AAUI2G0bZISGJPEgA49e4"}}
+17:44:48.289 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+17:44:49.470 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 6 (0 remaining) classpath:conduitApp/feature/HomePage.feature
+17:44:49.500 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete

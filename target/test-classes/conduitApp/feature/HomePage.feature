@@ -79,3 +79,23 @@ Feature: Tests for the Home Page
     When method GET
     * eval sleep(5000)
     Then status 200
+
+#    Section 33: Conversion type
+  Scenario: Convert number to string
+    * def foo = 10
+    * def json = {"bar": #(foo+'')}
+    * match json == {"bar": '10'}
+
+  Scenario: Convert string to number
+    * def foo = '10'
+    * def json = {"bar": #(foo*1)}
+    * match json == {"bar": 10}
+
+    * def json2 = {"bar": #(parseInt(foo))}
+    * match json2 == {"bar": 10}
+
+  @debug
+  Scenario: Convert double type to number
+    * def foo = 10.00
+    * def json2 = {"bar": #(~~parseInt(foo))}
+    * match json2 == {"bar": 10}

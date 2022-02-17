@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: conduitApp.ConduitTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.297 s <<< FAILURE! - in conduitApp.ConduitTest
-testParallel  Time elapsed: 14.288 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-status code was: 200, expected: 422, response time in milliseconds: 849, url: https://api.realworld.io/api/users, response: 
-{"user":{"email":"userkarate","username":"jesenia.kuphal","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJrYXJhdGUiLCJ1c2VybmFtZSI6Implc2VuaWEua3VwaGFsIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTMsImV4cCI6MTY0OTk0NTMxM30.b5S8CH0wf9UwcVjDzQhW14Yw0W-ng0IYnI6BOt9jFF0"}}
-classpath:conduitApp/feature/SignUp.feature:49
-status code was: 200, expected: 422, response time in milliseconds: 992, url: https://api.realworld.io/api/users, response: 
-{"user":{"email":"robt49@test.com","username":"userkarate12345678901","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnQ0OUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoidXNlcmthcmF0ZTEyMzQ1Njc4OTAxIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTQsImV4cCI6MTY0OTk0NTMxNH0.rBMGhVGa-lelRCRp3ZVHK1LI9LXJrKH5b5K9Y46NdZg"}}
-classpath:conduitApp/feature/SignUp.feature:49
-status code was: 200, expected: 422, response time in milliseconds: 966, url: https://api.realworld.io/api/users, response: 
-{"user":{"email":"yan11@test.com","username":"tatiana.lemke","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbjExQHRlc3QuY29tIiwidXNlcm5hbWUiOiJ0YXRpYW5hLmxlbWtlIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDQ3NjEzMTUsImV4cCI6MTY0OTk0NTMxNX0.vrG1ZVo-xuA7-GOQ0P5JvJ5Gg57ps4o2UGgJFNv1YLQ"}}
-classpath:conduitApp/feature/SignUp.feature:49 ==> expected: <0> but was: <3>
-	at conduitApp.ConduitTest.testParallel(ConduitTest.java:26)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.964 s - in conduitApp.ConduitTest

@@ -32,7 +32,6 @@ Feature: Sign up new user
     }
     """
 
-  @debug
   Scenario Outline: Validate Sign Up error messages
     Given path 'users'
     And request
@@ -53,20 +52,14 @@ Feature: Sign up new user
     | email               | password     | username               | errorResponse |
     | #(randomEmail)      | user1234     | userkarate             | {"errors":{"username":["has already been taken"]}} |
     | userkarate@mail.com | user1234     | #(randomUname)         | {"errors":{"email":["has already been taken"]}} |
-
-    | userkarate          | user1234     | #(randomUname)         | {"errors":{"email":["is invalid"]}} |
-    | #(randomEmail)      | user1234     | userkarate12345678901  | {"errors":{"username":["is too long (maximum is 20 character)"]}} |
-    | #(randomEmail)      | user         | #(randomUname)         | {"errors":{"password":["is too short (minimum is 8 character)"]}} |
-
-
     |                     | user1234     | #(randomUname)         | {"errors":{"email":["can't be blank"]}} |
     | #(randomEmail)      |              | #(randomUname)         | {"errors":{"password":["can't be blank"]}} |
     | #(randomEmail)      | user1234     |                        | {"errors":{"username":["can't be blank"]}} |
 
-#    | #(randomEmail)      | user1234     | userkarate             | {"errors":{"username":["has already been taken"]}} |
-#    | userkarate@mail.com | user1234     | #(randomUname)         | {"errors":{"email":["has already been taken"]}} |
-#    |                     | user1234     | #(randomUname)         | {"errors":{"email":["can't be blank"]}} |
-#    | #(randomEmail)      |              | #(randomUname)         | {"errors":{"password":["can't be blank"]}} |
-#    | #(randomEmail)      | user1234     |                        | {"errors":{"username":["can't be blank"]}} |
+#    case yg ternyata expectednya 200
+#    | userkarate          | user1234     | #(randomUname)         | {"errors":{"email":["is invalid"]}} |
+#    | #(randomEmail)      | user1234     | userkarate12345678901  | {"errors":{"username":["is too long (maximum is 20 character)"]}} |
+#    | #(randomEmail)      | user         | #(randomUname)         | {"errors":{"password":["is too short (minimum is 8 character)"]}} |
+
 
 

@@ -1,0 +1,10 @@
+{
+  "simulation": "performance.PerfTest",
+  "simulationId": "perftest",
+  "start": 1645168963333,
+  "description": "",
+  "scenarios": ["Create and Delete Article"],
+  "assertions": [
+
+  ]
+}

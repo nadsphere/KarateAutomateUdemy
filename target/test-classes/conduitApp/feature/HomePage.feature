@@ -51,7 +51,7 @@ Feature: Tests for the Home Page
 #    * if (favoritesCount == 0) karate.call('classpath:Helpers/AddLikes.feature', article)
 
 #    bisa pake cara lain
-    * def result = favoritesCount == 0 ? karate.call('classpath:Helpers/AddLikes.feature', article).likesCount : favoritesCount
+    * def result = favoritesCount == 0 ? karate.call('classpath:helpers/AddLikes.feature', article).likesCount : favoritesCount
 
 #    verify after add like
     Given params {limit: 10, offset:0}

@@ -1,7 +1,7 @@
 Feature: Articles
   Background: Define URL
     * url apiUrl
-    * def articleReqBody = read('classpath:json/newArticleRequest.json')
+    * def articleReqBody = read('classpath:conduitApp/json/newArticleRequest.json')
     * def dataGenerator = Java.type('helpers.DataGenerator')
     * set articleReqBody.article.title = dataGenerator.getRandomArticleValues().title
     * set articleReqBody.article.description = dataGenerator.getRandomArticleValues().description

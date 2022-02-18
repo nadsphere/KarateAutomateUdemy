@@ -1,0 +1,20 @@
+{
+  "article": {
+    "slug": "This-is-title-21074",
+    "title": "This is title",
+    "description": "ini hanya judul",
+    "body": "isi isi text aja",
+    "createdAt": "2022-02-06T11:26:42.054Z",
+    "updatedAt": "2022-02-06T11:26:42.054Z",
+    "tagList": [],
+    "author": {
+      "username": "admoons",
+      "bio": null,
+      "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+      "following": false
+    },
+    "favoritesCount": 0,
+    "favorited": false
+  }
+}
+

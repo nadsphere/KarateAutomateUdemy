@@ -33,3 +33,858 @@
 17:44:48.289 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
 17:44:49.470 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 6 (0 remaining) classpath:conduitApp/feature/HomePage.feature
 17:44:49.500 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+14:36:20.495 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+14:36:23.011 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:36:23.028 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1645108583025
+14:36:28.688 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:28.727 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+14:36:30.273 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"admoons@mail.com","password":"admin123"}}
+
+14:36:31.407 [main] DEBUG com.intuit.karate - response time in milliseconds: 1128
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"20d-CWezg1QuuZ3NPdl6pQHPAgqfcaI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4s81IyvPoCgG8ndNjFkVj5B1wZRXYAPaWZRwJ3ol1Hqv9y35XP1lj1jRyEcR6du7aykKHtEw2Wj%2FD3cdE30ZaSV3eDe32pRZmcxgL%2F9JFjZPa7b%2FLnTs1amX8JC2Lh6PBttw"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbf992d5749ae-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k"}}
+14:36:31.438 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+14:36:31.460 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:36:32.073 [main] DEBUG com.intuit.karate - response time in milliseconds: 612
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"44-/BOFNqaPYAsbgDo80ZQcPOFf7l8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=32qXQ2fQ9deG93DelC6xRSHPKt8OR0SuLfslax8GnXGPVRuGczDWI8xnVXkthTC2shwkgRcHALWYXyV2c7lt5dRJbm5ipoafGxJgIsAxPBZqtOAFTWQh85j8plVNcSwbojUD"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbf9e1f67021f-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"tags":["welcome","implementations","codebaseShow","introduction"]}
+14:36:32.170 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:32.253 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:36:33.001 [main] DEBUG com.intuit.karate - response time in milliseconds: 747
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1wX9D2BBi8AuKQANvH6OTIGCJF9ClWeH%2FKTSPi0wLF7bofcRYNQjYyldq%2FY5%2Fy2WFYRE3joriOBJX4Kz0tG9Q6ZFvnsFrDuF2ZE8BkkmqUfTiSmBuvNgmCpyZ4x0VPtYlEEg"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbfa30b5c87c0-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:33.090 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:33.098 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:36:33.827 [main] DEBUG com.intuit.karate - response time in milliseconds: 728
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jOgSBCkwMtoYieVAaq8aQlP%2FzJ5yic3mPILuCfQFrqCmPB2YybKMU9zmCvIPc7sEkTYcqkfijl7o4aUvMMHzigfnGGeOxDcqxyQ04Alz3GpoEhAqQiPrALrzI%2Bk0qXfkERFO"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbfa83ef98942-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:33.863 [main] DEBUG com.intuit.karate - request:
+2 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:36:34.626 [main] DEBUG com.intuit.karate - response time in milliseconds: 761
+2 < 200
+2 < Date: Thu, 17 Feb 2022 14:36:35 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CZxss4187implWzBP6rWNj%2FP6nnljVOn1n1Ab4GWQnVKVMUATYwNg6Mg0FcuvYvv6ji9HbvGpXxdFLdNINjBxtJ8PCWBKZp%2BCzrBxjDnEsw4oGNSBFOAnzW77a30OZRA2I%2By"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6defbfad19c88838-SIN
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:34.645 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:34.656 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:36:35.706 [main] DEBUG com.intuit.karate - response time in milliseconds: 1049
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f%2BD982PztSnoaQdLQZgiI%2F4F1gJmdm541p2uYi0s%2FIkLR7%2FFxyRPbjOXRiGQY6gQfR2fun7DJUyb0pIvKUbuGi%2B0P0tH9JszTWuIY6ZueIos3zOcSBQ8wGzaXIvlDXwmktM5"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbfb3bc2e6ca1-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:35.727 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:35.741 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:36:36.459 [main] DEBUG com.intuit.karate - response time in milliseconds: 717
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wtzrCKJQHgRfr6o40CqZpmBrZsY7XpeO1GojNZq%2ByimlnymLHUBtsW5ju1Zyoa4dmM9zl%2FFpn%2Byhb%2BAWMW1S02x71L4v0xordE7QXspNnqI%2FGa2Ma7fhGFgL0rJgpDhlGYxc"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbfb8cb9749fc-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:41.521 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:41.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:41.636 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:44.195 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 6 (0 remaining) classpath:conduitApp/feature/HomePage.feature
+14:36:44.227 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:44.723 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 377
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false}}
+
+14:36:45.593 [main] DEBUG com.intuit.karate - response time in milliseconds: 868
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZByRYI9bP6PnfWF6bzu1VjoBDQoDFCmgsEgUHRdto7POLGvTzdcR2jPjmHSfEuI82MrNG9tT1AegVLNSTNYn0o8%2FvxjdtR4kA5ZdaFZEDoD49PCLekeZnoPtBBYVlWVLT2uv"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbff0fa5ad9f8-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:45.640 [main] DEBUG com.intuit.karate - request:
+2 > POST https://api.realworld.io/api/articles/This-is-title-21074/favorite
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:36:46.254 [main] DEBUG com.intuit.karate - response time in milliseconds: 613
+2 < 200
+2 < Date: Thu, 17 Feb 2022 14:36:47 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"27b-JNGywN4obkBH9S/prxY3IWCZems"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yhBjb%2Fc1ueSrTKdv9lWg8YkUmqhSUBuPuEADElZaV46uc7nBVK5T1kn%2FeqYV9zdd2m7g%2FcbIpbctjLDm8LPXM1lT9D9vxHpAsnwFdvbrRf5CVbcR809AEGMsmY5U5cVKXpE4"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6defbff69fc54d63-SIN
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"article":{"id":29695,"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","authorId":21074,"tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritedBy":[{"id":21074,"email":"admoons@mail.com","username":"admoons","password":"$2a$10$PiNuOv6H8NkjqL3UCqmXvu.Ewz25oel/68qr9oPwDybvltq8jsjBq","image":"https://api.realworld.io/images/smiley-cyrus.jpeg","bio":null,"demo":false}],"favorited":true,"favoritesCount":1}}
+14:36:46.261 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'response' with new value: {"favoritesCount": 1}
+14:36:46.273 [main] DEBUG com.intuit.karate - request:
+3 > GET https://api.realworld.io/api/articles?offset=0&limit=10&favorited=admoons
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+3 > Host: api.realworld.io
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+14:36:46.952 [main] DEBUG com.intuit.karate - response time in milliseconds: 679
+3 < 200
+3 < Date: Thu, 17 Feb 2022 14:36:47 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Etag: W/"189-u6YKl+fMxJP38tCBahQbk4asO74"
+3 < Via: 1.1 vegur
+3 < CF-Cache-Status: DYNAMIC
+3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XRnxYocwhdOWo8MWaIjiRDXwNKuW4fUkELkaKKu1O6%2BxdWEWCO8W6P8TuT8Lf6bnKnV6d3nEJeybzywUfQzWHlqm0EfpeZGDBmgaj06DDvq7LQ2wiHR%2FnWlTjwE5uwpBRaqe"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 6defbffa985887b4-SIN
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true}],"articlesCount":1}
+14:36:46.961 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:47.009 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 377
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false}}
+
+14:36:47.745 [main] DEBUG com.intuit.karate - response time in milliseconds: 736
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0MUSx704BnSg2XAtH9uxAuU%2B2y2VC9FmR%2BZFZwdS9u7YZBN2hu7sRzU%2BX0cxe1TbthE4ujo1hp5GCWGEQpZBxfexuf8EjQBDU8a5RZxeW1XusoA71cMfSidZp%2Bkfr5vOrD4y"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defbfff3f4987ae-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:47.756 [main] DEBUG com.intuit.karate - request:
+2 > GET https://api.realworld.io/api/articles/This-is-title-21074/comments
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:36:48.351 [main] DEBUG com.intuit.karate - response time in milliseconds: 594
+2 < 200
+2 < Date: Thu, 17 Feb 2022 14:36:49 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"f8-8GJVANK9jjmQqneGk3TDJcSpUxQ"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cRr2oFwIdKaI6F5TYuAQBX1E7eQuL6GG2fySkxpmPYZpggKfzO2v9VhdEHD8qAKFPGu3MLPW2kzWUvXHv0CBR%2Fsrv%2BKPR6ZF%2F1129jxAMZgOxUVkoBfDB4VnywIpk9cIEDt4"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6defc003e98a8811-SIN
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"comments":[{"id":6170,"createdAt":"2022-02-06T11:29:21.415Z","updatedAt":"2022-02-06T11:29:21.415Z","body":"apa aja boleh","author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}]}
+14:36:48.363 [main] DEBUG com.intuit.karate - request:
+3 > POST https://api.realworld.io/api/articles/This-is-title-21074/comments
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 97
+3 > Host: api.realworld.io
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"comment":{"body":"Things are not always as they seemed, much that may seem evil can be good."}}
+
+14:36:48.990 [main] DEBUG com.intuit.karate - response time in milliseconds: 626
+3 < 200
+3 < Date: Thu, 17 Feb 2022 14:36:49 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Etag: W/"132-RfoIP4Whspcnk6BI0kY3BLDzvOk"
+3 < Via: 1.1 vegur
+3 < CF-Cache-Status: DYNAMIC
+3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7EVazlVZ3vrEkydN%2FpVNyGetlkGqMHgtQJ%2Fj14A6LC7V9SHUj3msCXJ7x%2BHYlgfStfbBP5gzUd6G1kgedp%2FfL77OhLPuKI%2BK3dfPqv07cMJ7KCDpI9PKM58kvMbjGgTgtNEt"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 6defc007be2087a8-SIN
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"comment":{"id":7077,"createdAt":"2022-02-17T14:36:49.633Z","updatedAt":"2022-02-17T14:36:49.633Z","body":"Things are not always as they seemed, much that may seem evil can be good.","author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}}
+14:36:49.006 [main] DEBUG com.intuit.karate - request:
+4 > GET https://api.realworld.io/api/articles/This-is-title-21074/comments
+4 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+4 > Host: api.realworld.io
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+4 > Accept-Encoding: gzip,deflate
+
+
+14:36:49.603 [main] DEBUG com.intuit.karate - response time in milliseconds: 596
+4 < 200
+4 < Date: Thu, 17 Feb 2022 14:36:50 GMT
+4 < Content-Type: application/json; charset=utf-8
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < X-Powered-By: Express
+4 < Access-Control-Allow-Origin: *
+4 < Etag: W/"21f-7KhY4PIsgrlQ23yVPunlBFUq6z4"
+4 < Via: 1.1 vegur
+4 < CF-Cache-Status: DYNAMIC
+4 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1CEqmhV7P2q41i%2FBPBpBxNM4CbFmk4UPyoJXBurF0%2FbCLtNXl3M7ZlSBu0xcikjsOKH2s6FoXASivISic1DxOZv3TbUUO9I4Ie%2FzZFzXJeFhwG5hNWFzl1wg2hDPCpRU%2BrfP"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 6defc00bba836c7e-SIN
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"comments":[{"id":6170,"createdAt":"2022-02-06T11:29:21.415Z","updatedAt":"2022-02-06T11:29:21.415Z","body":"apa aja boleh","author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"id":7077,"createdAt":"2022-02-17T14:36:49.633Z","updatedAt":"2022-02-17T14:36:49.633Z","body":"Things are not always as they seemed, much that may seem evil can be good.","author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}]}
+14:36:49.612 [main] INFO  com.intuit.karate - [print] jumlah comment terbaru: 2 
+14:36:49.623 [main] DEBUG com.intuit.karate - request:
+5 > DELETE https://api.realworld.io/api/articles/This-is-title-21074/comments/7077
+5 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+5 > Host: api.realworld.io
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+5 > Accept-Encoding: gzip,deflate
+
+
+14:36:50.205 [main] DEBUG com.intuit.karate - response time in milliseconds: 581
+5 < 204
+5 < Date: Thu, 17 Feb 2022 14:36:50 GMT
+5 < Content-Length: 0
+5 < Connection: keep-alive
+5 < X-Powered-By: Express
+5 < Access-Control-Allow-Origin: *
+5 < Etag: W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
+5 < Via: 1.1 vegur
+5 < CF-Cache-Status: DYNAMIC
+5 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+5 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dpFxjlFWhC7YUogQFLUIk8Df%2FedlZG7hnLBWNrhsPnOl2s7oZJQBmkkLW14Wq2gSdNvyhq4SfNWUeeywb5fzItNPsMqUpZmK5%2Bs9gTFq8qtkgQQARAF2NYyH690ht%2FkyFbU6"}],"group":"cf-nel","max_age":604800}
+5 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+5 < Server: cloudflare
+5 < CF-RAY: 6defc00f7b6c4d27-SIN
+5 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+14:36:50.212 [main] DEBUG com.intuit.karate - request:
+6 > GET https://api.realworld.io/api/articles/This-is-title-21074/comments
+6 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+6 > Host: api.realworld.io
+6 > Connection: Keep-Alive
+6 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+6 > Accept-Encoding: gzip,deflate
+
+
+14:36:51.032 [main] DEBUG com.intuit.karate - response time in milliseconds: 819
+6 < 200
+6 < Date: Thu, 17 Feb 2022 14:36:51 GMT
+6 < Content-Type: application/json; charset=utf-8
+6 < Transfer-Encoding: chunked
+6 < Connection: keep-alive
+6 < X-Powered-By: Express
+6 < Access-Control-Allow-Origin: *
+6 < Etag: W/"f8-8GJVANK9jjmQqneGk3TDJcSpUxQ"
+6 < Via: 1.1 vegur
+6 < CF-Cache-Status: DYNAMIC
+6 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+6 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Tc3a0VRj3NkTl%2F7K79jOF%2FIg70VrWsDxJ%2BbGCNaOTBolwWkZtiMSfmoiuCSnw1avNLhfs1PXeb7%2Fq9p7gSbWh5L1EbBbUH8SF2dizRMcLZYBk2%2BN9BDb0kYlYiWYYt3tdiIA"}],"group":"cf-nel","max_age":604800}
+6 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+6 < Server: cloudflare
+6 < CF-RAY: 6defc014ae9d6c6b-SIN
+6 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"comments":[{"id":6170,"createdAt":"2022-02-06T11:29:21.415Z","updatedAt":"2022-02-06T11:29:21.415Z","body":"apa aja boleh","author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}]}
+14:36:51.038 [main] INFO  com.intuit.karate - [print] jumlah comment sekarang: 1 
+14:36:51.396 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 6 (0 remaining) classpath:conduitApp/feature/HomeWork.feature
+14:36:51.417 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.428 [main] INFO  com.intuit.karate - [print] This is first scenario 
+14:36:51.517 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
+* def dataGenerator = Java.type('Helpers.DataGenerator')
+js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+14:36:51.539 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
+>>>>
+01: function(){ karate.call('classpath:helpers/dummy.feature') }
+<<<<
+org.graalvm.polyglot.PolyglotException: js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:217)
+- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2013)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1909)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:163)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- <js>.:anonymous(Unnamed:1)
+
+14:36:51.545 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.550 [main] INFO  com.intuit.karate - [print] This is second scenario 
+14:36:51.573 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
+* def dataGenerator = Java.type('Helpers.DataGenerator')
+js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+14:36:51.578 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
+>>>>
+01: function(){ karate.call('classpath:helpers/dummy.feature') }
+<<<<
+org.graalvm.polyglot.PolyglotException: js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:217)
+- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2013)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1909)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:163)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- <js>.:anonymous(Unnamed:1)
+
+14:36:51.580 [main] INFO  com.intuit.karate - After feature test 
+14:36:51.772 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 6 (0 remaining) classpath:conduitApp/feature/Hooks.feature
+14:36:51.787 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.798 [main] INFO  com.intuit.karate - [print] [
+  1,
+  4,
+  9
+]
+ 
+14:36:51.807 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.817 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.831 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.854 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.871 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:51.882 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.040 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.050 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.265 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 6 (0 remaining) classpath:conduitApp/feature/JsonTransform.feature
+14:36:52.279 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:52.357 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 149
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"tagList":[],"title":"Frenya","description":"Oldtown","body":"Some old wounds never truly heal, and bleed again at the slightest word."}}
+
+14:36:52.949 [main] DEBUG com.intuit.karate - response time in milliseconds: 591
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1b1-0OzzykxegVSqclL4U6r3nRl4VSw"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f4VhrEeCfitzfA4LCW9GTx29ZtgpSHNpgsiI3RzaSTxBsHdLbNKUwkjevuxAbhJgVfTV04mK6Dqxygj5HW7%2Fr0AVKvMttha6by2EEdp9CTsRafpRZ6uHvXFCg8xYizGdfrP4"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc020a8634b7a-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"article":{"slug":"Frenya-21074","title":"Frenya","description":"Oldtown","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-17T14:36:53.597Z","updatedAt":"2022-02-17T14:36:53.597Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
+14:36:52.959 [main] DEBUG com.intuit.karate - request:
+2 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:36:53.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 735
+2 < 200
+2 < Date: Thu, 17 Feb 2022 14:36:54 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"b61-crtF6bGS6gh8hb+V7YTeE3NthNQ"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gcrm%2FBm6II1zO69uNI2YUxTknZvSSgv%2Fp2q7YUOXJsWVNhDwSzFK%2F%2FauU4o3ImstT15r6mxJLTjHrqTqc9WlXvIYtZ1a2tnqiw4YkZrjbgGK0YOfBwycnRCPkg%2FzqUWKlpva"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6defc024797489b2-SIN
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"Frenya-21074","title":"Frenya","description":"Oldtown","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-17T14:36:53.597Z","updatedAt":"2022-02-17T14:36:53.597Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":6}
+14:36:53.703 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://api.realworld.io/api/articles/Frenya-21074
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+3 > Host: api.realworld.io
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+14:36:54.644 [main] DEBUG com.intuit.karate - response time in milliseconds: 939
+3 < 204
+3 < Date: Thu, 17 Feb 2022 14:36:55 GMT
+3 < Content-Length: 0
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Etag: W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
+3 < Via: 1.1 vegur
+3 < CF-Cache-Status: DYNAMIC
+3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0%2FhSlKHCER4bXwLmLWqgwhpdBMnS%2BCKCZv9DWbU1EVdk3H0XnJOsiiud%2F0eTGwKXHX8EFrh6HB6WdFla3ketNJlVxCQsG6JQ4kyr%2FBNPhRXQdkScF%2FoBOO3pvE2ve3CK7aYe"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 6defc0292b16da00-SIN
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+14:36:54.650 [main] DEBUG com.intuit.karate - request:
+4 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+4 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+4 > Host: api.realworld.io
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+4 > Accept-Encoding: gzip,deflate
+
+
+14:36:55.703 [main] DEBUG com.intuit.karate - response time in milliseconds: 1052
+4 < 200
+4 < Date: Thu, 17 Feb 2022 14:36:56 GMT
+4 < Content-Type: application/json; charset=utf-8
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < X-Powered-By: Express
+4 < Access-Control-Allow-Origin: *
+4 < Etag: W/"9d5-f0NKTtoXwSag33ujfC5eBJeH3SE"
+4 < Via: 1.1 vegur
+4 < CF-Cache-Status: DYNAMIC
+4 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=psLu1MCtUrOelVFugveYpr7datBEuT3ScNqMCtdn6f8aTYsObr3CvF93YOhERBVTRZljBPoFwRGOx4aJGwc%2FkDiVsk2Us6O5YwZ0xErGJ9soO5V8uIfhv17o08Lky69icbeJ"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 6defc030dd704804-SIN
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"This-is-title-21074","title":"This is title","description":"ini hanya judul","body":"isi isi text aja","createdAt":"2022-02-06T11:26:42.054Z","updatedAt":"2022-02-06T11:26:42.054Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":1,"favorited":true},{"slug":"Ballabar-21074","title":"Ballabar","description":"Meereen","body":"Some old wounds never truly heal, and bleed again at the slightest word.","createdAt":"2022-02-06T07:04:34.418Z","updatedAt":"2022-02-06T07:04:34.418Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false},"favoritesCount":0,"favorited":false},{"slug":"Create-a-new-implementation-1","title":"Create a new implementation","description":"join the community by creating a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","createdAt":"2021-11-24T12:11:08.212Z","updatedAt":"2021-11-24T12:11:08.212Z","tagList":["implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":1149,"favorited":false},{"slug":"Explore-implementations-1","title":"Explore implementations","description":"discover the implementations created by the RealWorld community","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","createdAt":"2021-11-24T12:11:07.952Z","updatedAt":"2021-11-24T12:11:07.952Z","tagList":["codebaseShow","implementations"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":741,"favorited":false},{"slug":"Welcome-to-RealWorld-project-1","title":"Welcome to RealWorld project","description":"Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more","body":"See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec","createdAt":"2021-11-24T12:11:07.557Z","updatedAt":"2021-11-24T12:11:07.557Z","tagList":["welcome","introduction"],"author":{"username":"Gerome","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false},"favoritesCount":483,"favorited":false}],"articlesCount":5}
+14:36:55.840 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 6 (0 remaining) classpath:conduitApp/feature/NewArticles.feature
+14:36:55.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:55.961 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"willette93@test.com","password":"admkarate123","username":"rico.blick"}}
+
+14:36:56.651 [main] DEBUG com.intuit.karate - response time in milliseconds: 689
+1 < 200
+1 < Date: Thu, 17 Feb 2022 14:36:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1b9-ix4D3WAHsOuBa2mMdioAZ75MTO8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0SU%2Bk%2B5XDvOiaq38Wh%2Fidm1VxyFU1CEmhgBBLzNdyIDPFUyROfHKVHV7QjypPBD5Eo6ebNT7zAEkboXJ82EJ0M3ImIAMOibsGgFGm5uVOQlv7oc5R4nQNccxb7abaDivl90%2B"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc0374a9b01d9-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"willette93@test.com","username":"rico.blick","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IndpbGxldHRlOTNAdGVzdC5jb20iLCJ1c2VybmFtZSI6InJpY28uYmxpY2siLCJiaW8iOm51bGwsImltYWdlIjoiaHR0cHM6Ly9hcGkucmVhbHdvcmxkLmlvL2ltYWdlcy9zbWlsZXktY3lydXMuanBlZyIsImlhdCI6MTY0NTEwODYxNywiZXhwIjoxNjUwMjkyNjE3fQ.GOBYKXmq7mh0mSLp0F4BnR1wkXUbg0UgoUKxFbxNpMg"}}
+14:36:56.670 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:56.726 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"guadalupe99@test.com","password":"user1234","username":"userkarate"}}
+
+14:36:57.332 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 422
+1 < Date: Thu, 17 Feb 2022 14:36:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XLhoX%2FRop2MrewuZC%2BUbdFFnCpw33UUw0HSMCgwY76Du2Ge4K44hIOGBhAUV6eQWC23jbwx4DszEzm%2BdSQim9QB%2B6oxPzlA8C%2BQYj44V5WEIfvtVn%2Bb8B2ekPgtiSSO29WJx"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc03bec964b9e-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+14:36:57.339 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:57.396 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"userkarate@mail.com","password":"user1234","username":"shandra.klein"}}
+
+14:36:57.966 [main] DEBUG com.intuit.karate - response time in milliseconds: 569
+1 < 422
+1 < Date: Thu, 17 Feb 2022 14:36:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8nevwBKAwSMEWYrQ7J%2BVzX2R1OgidWtgRWRaI5PRgwbik04ejtv6QUfLhVDQOzjh3Q6JGTade3M64O%2FVasqX6TNM5Vem3NqEIbyZuDZlmQfbQkfvv2MtICGFDvuvGpvaBgwY"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc0402f724c7d-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+14:36:57.980 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:58.024 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 66
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"user1234","username":"vina.lowe"}}
+
+14:36:58.612 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 422
+1 < Date: Thu, 17 Feb 2022 14:36:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 39
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=J4bMvfokYuKhjdqRwVqzdFrSHEJCZdnIjD%2B%2BnX606z8S8uS6qMg6u5xO%2FMiZsXgE7MUt9jdsMUbJ%2BX3zNgelO2WxI5TXpRgw5jnsYKFWV%2FlvQoPXArGHO5xBBJgMRfIhLDNy"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc0442a50019b-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["can't be blank"]}}
+14:36:58.618 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:58.664 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 80
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"norbert10@test.com","password":"","username":"kory.schiller"}}
+
+14:36:59.245 [main] DEBUG com.intuit.karate - response time in milliseconds: 580
+1 < 422
+1 < Date: Thu, 17 Feb 2022 14:37:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 42
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=twMXLwMpp7Dgd1dpmWNGT%2B2Qo6tmiaFyviJf1HVnlg3iF92JFVQzd0NgjVikjAs1mUHMUYFV6swxONt0W8U9fKz%2Fkz8tTdVd40iyXZHpuO4UewhEI1yXr721qNq7vkQeHg%2BS"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc048092e6bb7-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"password":["can't be blank"]}}
+14:36:59.256 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:36:59.333 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTA4NTkyLCJleHAiOjE2NTAyOTI1OTJ9.u9FwgrZmSfaxPO9SFVRsl2Yg8G6bT0hPGMWNnxDvq3k
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cornelia91@test.com","password":"user1234","username":""}}
+
+14:36:59.897 [main] DEBUG com.intuit.karate - response time in milliseconds: 564
+1 < 422
+1 < Date: Thu, 17 Feb 2022 14:37:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 42
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wh%2FnwbArMlSdJatwOG1OBxIxy9N3UIK5yHiN5vSsEpHpRj5wHfxeWy%2FwuVPk64Q0OlziukDHv%2B4XlkOvTRHf480ySwYtZMwaHsl1M6TwUGQcQ2Ph6rCvqKJFuAiopUY2jseD"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6defc04c2f675626-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["can't be blank"]}}
+14:37:00.117 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 6 (0 remaining) classpath:conduitApp/feature/SignUp.feature
+14:37:00.133 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete

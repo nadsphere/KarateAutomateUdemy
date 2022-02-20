@@ -9,3 +9,6 @@ mvn clean test "-Dkarate.options=--tags @debug"*
 
 2) Run all features, you can comment ".tags("@debug")" or remove (optional)
 mvn clean test
+
+Update: 
+To run gatling project: mvn clean test-compile gatling:test or mvn test

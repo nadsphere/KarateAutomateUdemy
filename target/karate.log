@@ -1,168 +1,168 @@
-14:22:38.562 [main] INFO  io.gatling.compiler.ZincCompiler$ - compiling 1 Scala source to C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\test-classes ...
-14:22:40.930 [main] INFO  io.gatling.compiler.ZincCompiler$ - done compiling
-14:22:42.071 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as config file.
-14:22:42.615 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
-14:22:43.428 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
-14:22:43.428 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
-14:22:43.472 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
-14:22:43.477 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
-14:22:43.529 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - Scenario Create and Delete Article has finished injecting
-14:22:43.530 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - Injecting is done
-14:22:44.219 [gatling-1-1] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:22:44.225 [gatling-1-3] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:22:44.229 [gatling-1-2] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:22:45.401 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - karate.env system property was: null 
-14:22:45.401 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - karate.env system property was: null 
-14:22:45.401 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  com.intuit.karate - karate.env system property was: null 
-14:22:45.417 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-14:22:45.693 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - request:
+20:28:00.766 [main] INFO  io.gatling.compiler.ZincCompiler$ - compiling 1 Scala source to C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\test-classes ...
+20:28:04.650 [main] INFO  io.gatling.compiler.ZincCompiler$ - done compiling
+20:28:06.576 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as config file.
+20:28:07.452 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+20:28:08.571 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+20:28:08.571 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+20:28:08.648 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+20:28:08.666 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+20:28:08.774 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - Scenario Create and Delete Article has finished injecting
+20:28:08.774 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - Injecting is done
+20:28:10.030 [gatling-1-3] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:28:10.037 [gatling-1-2] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:28:10.043 [gatling-1-1] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:28:11.767 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - karate.env system property was: null 
+20:28:11.767 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  com.intuit.karate - karate.env system property was: null 
+20:28:11.767 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - karate.env system property was: null 
+20:28:11.780 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+20:28:12.113 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 59
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"admoons@mail.com","password":"admin123"}}
 
-14:22:46.437 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - response time in milliseconds: 743
+20:28:13.511 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - response time in milliseconds: 1398
 1 < 200
-1 < Date: Fri, 18 Feb 2022 07:22:47 GMT
+1 < Date: Sun, 20 Feb 2022 13:28:13 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"20d-OmvxjezRFKQMwSO36OyWmgXk3LQ"
+1 < Etag: W/"20d-AGN20F8EO0o7GdDLVurOv5Ap/qY"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3WX1MoT5FDcrQ2CxOEiM0t%2BR6FLFoBrjTlP3X23ETrm9u2DxTzVvlBGbfBUV5G9HNVZp2JwAM%2Fu1GTrZ%2FVY4%2FpmfAi2iXRjowbkoWrvFykpl%2BF415k0jM8WY5kbR8ZDJ9uKu"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Cka5zLmnyiVpLLmD0H2L0wTK0c66M0wNEcGWJXV2qmFp3fhql%2BhsLMHVppM1CqsXoPQU4vQLXjtRG5i4AwGddtzi0ecAyITD7%2F87fMz1vIKJLk1fRCieKEMC4dmOUgWu3I1x"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6df5819bef5a8958-SIN
+1 < CF-RAY: 6e0813a828584a23-SIN
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ"}}
-14:22:46.453 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
-14:22:46.454 [GatlingSystem-akka.actor.default-dispatcher-5] WARN  com.intuit.karate - this thread waited 1037 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
-14:22:46.458 [GatlingSystem-akka.actor.default-dispatcher-6] WARN  com.intuit.karate - this thread waited 1041 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
-14:22:46.840 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - request:
+{"user":{"email":"admoons@mail.com","username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM"}}
+20:28:13.540 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+20:28:13.540 [GatlingSystem-akka.actor.default-dispatcher-7] WARN  com.intuit.karate - this thread waited 1760 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+20:28:13.540 [GatlingSystem-akka.actor.default-dispatcher-6] WARN  com.intuit.karate - this thread waited 1760 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+20:28:14.080 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 182
+1 > Content-Length: 132
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
 1 > Accept-Encoding: gzip,deflate
-{"article":{"tagList":[],"title":"Shyra","description":"Asshai","body":"Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?"}}
+{"article":{"tagList":[],"title":"Jon O'Nutten","description":"Mantarys","body":"There are no heroes...in life, the monsters win."}}
 
-14:22:46.861 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - request:
+20:28:14.080 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 101
+1 > Content-Length: 166
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
 1 > Accept-Encoding: gzip,deflate
-{"article":{"tagList":[],"title":"Sylas Flatnose","description":"Ny Sar","body":"Winter is coming."}}
+{"article":{"tagList":[],"title":"Arianne Martell","description":"Volantis","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge."}}
 
-14:22:46.863 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - request:
+20:28:14.093 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 109
+1 > Content-Length: 111
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
 1 > Accept-Encoding: gzip,deflate
-{"article":{"tagList":[],"title":"Jon O'Nutten","description":"Chroyane","body":"The things I do for love."}}
+{"article":{"tagList":[],"title":"Ronel Rivers","description":"Bayasabhad","body":"The things I do for love."}}
 
-14:22:47.452 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - response time in milliseconds: 612
+20:28:14.802 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - response time in milliseconds: 722
 1 < 200
-1 < Date: Fri, 18 Feb 2022 07:22:48 GMT
+1 < Date: Sun, 20 Feb 2022 13:28:15 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"1d1-tjQKwDEvm8EXJdgbfLb1xiqod6Y"
+1 < Etag: W/"1a6-LiziEoU3BTNbxi80DGMqL/kLc28"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=n3gO%2BEhKqSYsA3fI1EyTktQ6V2f%2B%2F%2FXzHJLzySZmRhgIVUOtaaypcQMtUHAMdB4rJmj0lqoHq%2BpM3n%2BAQlIfpnQO6FMOv2PFFBWy7fQFJ8C2yuF71e1oNoEkhMWCQbcyE7TW"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8pTvZ2exwlOilmlR3%2BRv30fL22NXNSMEKXv6qDFY%2BAOOgMPBSywNiU9WLuqOEn%2FByeWhcfxIZPHU7dBcoBCk5c4b5m0%2BBsozQEWxjZxSRgf0jWfYgFpSwzC3D0Yut6OGJVVt"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6df581a2ba6a8833-SIN
+1 < CF-RAY: 6e0813b3fd514d87-SIN
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"slug":"Shyra-21074","title":"Shyra","description":"Asshai","body":"Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?","createdAt":"2022-02-18T07:22:48.497Z","updatedAt":"2022-02-18T07:22:48.497Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
-14:22:47.474 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - request:
-2 > DELETE https://api.realworld.io/api/articles/Shyra-21074
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ
-2 > Host: api.realworld.io
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
-2 > Accept-Encoding: gzip,deflate
-
-
-14:22:47.819 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - response time in milliseconds: 955
+{"article":{"slug":"Jon-O'Nutten-21074","title":"Jon O'Nutten","description":"Mantarys","body":"There are no heroes...in life, the monsters win.","createdAt":"2022-02-20T13:28:15.114Z","updatedAt":"2022-02-20T13:28:15.114Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
+20:28:14.802 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - response time in milliseconds: 709
 1 < 200
-1 < Date: Fri, 18 Feb 2022 07:22:48 GMT
+1 < Date: Sun, 20 Feb 2022 13:28:15 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"18f-VHJfCxRZU4Aq64mSr2obDkq1XP0"
+1 < Etag: W/"191-YbjKnYhFqQqkTLmXP+zYjWlIzNg"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nWy1r9t6APNKYxwjehy6v2rC%2BcllmSUshM2F7upTgOO4cCvYY1tDtc7C%2FxGan31okjR6DFMy3fUTjmB%2FXbQ8OlguOaehTwyxEMUoLQBxVfysj3TuxP8lSANG0NnngDW8mRJ3"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tdjbje1mHG422NHxgXiEc7trUCnHFB%2BWQLFZXlaEhDrGPxmyjDdvCzGtKsomOmdiTBZQSzjO%2BisC2FjathCfkuA5YjX5PKHBHXOlUkV3fjgEw3gOcFWzNkgmbvz6LvOV7q1Y"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6df581a2fd5889be-SIN
+1 < CF-RAY: 6e0813b41e654619-SIN
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"slug":"Jon-O'Nutten-21074","title":"Jon O'Nutten","description":"Chroyane","body":"The things I do for love.","createdAt":"2022-02-18T07:22:48.866Z","updatedAt":"2022-02-18T07:22:48.866Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
-14:22:47.826 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - request:
+{"article":{"slug":"Ronel-Rivers-21074","title":"Ronel Rivers","description":"Bayasabhad","body":"The things I do for love.","createdAt":"2022-02-20T13:28:15.120Z","updatedAt":"2022-02-20T13:28:15.120Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
+20:28:15.097 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - response time in milliseconds: 1017
+1 < 200
+1 < Date: Sun, 20 Feb 2022 13:28:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1cb-Sm9tBIAlXBd6U/QVoD5ZRbiyvf4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FttLvUt3Pt3Tu3gKMF2WbVRloLSx7Cmm%2F01ogTWmtkm0FLwnParnantpF2sz1sRGO%2B%2F6LAaqcM6naM1dh%2Bb5nNSm6eN9pvv7kCYpvOLwGteOasOOS9iiHgfYNk7mXEOWeXyr"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6e0813b41b7187bf-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"article":{"slug":"Arianne-Martell-21074","title":"Arianne Martell","description":"Volantis","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","createdAt":"2022-02-20T13:28:15.473Z","updatedAt":"2022-02-20T13:28:15.473Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
+20:28:19.844 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - request:
 2 > DELETE https://api.realworld.io/api/articles/Jon-O'Nutten-21074
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM
 2 > Host: api.realworld.io
 2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
 2 > Accept-Encoding: gzip,deflate
 
 
-14:22:47.839 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - response time in milliseconds: 978
-1 < 200
-1 < Date: Fri, 18 Feb 2022 07:22:49 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"189-i/ZvRdsjN7tXD7gQbXd9PlIr/hw"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bptz1HdipW%2BGYG2AZUTPo5AdS00aecp51K2N94TiBJJEb%2BcpRsqAorlQMszHKSG5s4pQPnFoSW3rYeF2vVus7Zq0odj0VNJSur9KPstVryhOtD4q5d6O5NbSAX9faVVsv%2BaB"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6df581a2dc7645e9-SIN
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"slug":"Sylas-Flatnose-21074","title":"Sylas Flatnose","description":"Ny Sar","body":"Winter is coming.","createdAt":"2022-02-18T07:22:48.882Z","updatedAt":"2022-02-18T07:22:48.882Z","tagList":[],"author":{"username":"admoons","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg"},"favoritedBy":[],"_count":{"favoritedBy":0},"favoritesCount":0,"favorited":false}}
-14:22:47.844 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - request:
-2 > DELETE https://api.realworld.io/api/articles/Sylas-Flatnose-21074
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MTY4OTY3LCJleHAiOjE2NTAzNTI5Njd9.mkl0FaZ_jh2QEAghR91QtXqRWjhqkFniJmh9uv6XWqQ
+20:28:19.844 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - request:
+2 > DELETE https://api.realworld.io/api/articles/Ronel-Rivers-21074
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM
 2 > Host: api.realworld.io
 2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
 2 > Accept-Encoding: gzip,deflate
 
 
-14:22:48.037 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - response time in milliseconds: 561
+20:28:20.113 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - request:
+2 > DELETE https://api.realworld.io/api/articles/Arianne-Martell-21074
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbW9vbnNAbWFpbC5jb20iLCJ1c2VybmFtZSI6ImFkbW9vbnMiLCJwYXNzd29yZCI6IiQyYSQxMCRQaU51T3Y2SDhOa2pxTDNVQ3FtWHZ1LkV3ejI1b2VsLzY4cXI5b1B3RHlidmx0cThqc2pCcSIsImJpbyI6bnVsbCwiaW1hZ2UiOiJodHRwczovL2FwaS5yZWFsd29ybGQuaW8vaW1hZ2VzL3NtaWxleS1jeXJ1cy5qcGVnIiwiaWF0IjoxNjQ1MzYzNjkzLCJleHAiOjE2NTA1NDc2OTN9.0JCiSgzcbhArW3y5c_bSzaC-XOfHkCxPIRLBzS77xrM
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+20:28:20.496 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - response time in milliseconds: 651
 2 < 204
-2 < Date: Fri, 18 Feb 2022 07:22:49 GMT
+2 < Date: Sun, 20 Feb 2022 13:28:21 GMT
 2 < Content-Length: 0
 2 < Connection: keep-alive
 2 < X-Powered-By: Express
@@ -171,15 +171,15 @@
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: DYNAMIC
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pC4mZd%2BFAKpvauhhuqWP8JZoOh56SlYvdCO4vzKKbPr0Ewnr4%2FwcRpjfXUUi85NFTSSUxlfcAqf89nLkV3b4JMKXve5EL1PtY5CZuusXJeelpwRqwvg5hCuHQ6FxG%2BWnj5th"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SPI5dagVUq5xhw2BDM7vk6gVJDz8Y%2FyxZa7rdny9or1J%2Bs1f%2BaGA2pKPsFX9QQytEBqyzHLtYcvT0A7o3F0rmwuscmE%2BxcXGaMTDKYmJMu9%2B4UdGloz7wYWkMVN9Tk7q20jO"}],"group":"cf-nel","max_age":604800}
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 2 < Server: cloudflare
-2 < CF-RAY: 6df581a699aa91b1-SIN
+2 < CF-RAY: 6e0813d8186d897a-SIN
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
-14:22:48.418 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - response time in milliseconds: 591
+20:28:20.686 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG com.intuit.karate - response time in milliseconds: 841
 2 < 204
-2 < Date: Fri, 18 Feb 2022 07:22:49 GMT
+2 < Date: Sun, 20 Feb 2022 13:28:21 GMT
 2 < Content-Length: 0
 2 < Connection: keep-alive
 2 < X-Powered-By: Express
@@ -188,15 +188,15 @@
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: DYNAMIC
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fPns82%2BRh2iePkmaoHP4kwxmYi5th7ki8P0cYY0ol3pctQrT%2FjRhAHZThm75nW1S9RZ2PurDVLf2r0BKbJdEuj6DIiHl86iwvcGG413cn95VD0psWRHVF7%2FoSDkCtMHTRAm4"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YewJ1nnL%2FZXwf5dlwAY64ARwONUCs4w%2FeuLTq6DHU%2FQ1R2LBOqY8WL91QkfplaOgBIfSqKPAr7tti6t6OYsgoH%2FrwLz4%2B0I4qoNBef9x5yE%2B0uv4tjd4GuZ%2FhibQq4pqwpTm"}],"group":"cf-nel","max_age":604800}
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 2 < Server: cloudflare
-2 < CF-RAY: 6df581a8deef881d-SIN
+2 < CF-RAY: 6e0813d7eb1f4a47-SIN
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
-14:22:48.445 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG com.intuit.karate - response time in milliseconds: 601
+20:28:20.939 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - response time in milliseconds: 826
 2 < 204
-2 < Date: Fri, 18 Feb 2022 07:22:49 GMT
+2 < Date: Sun, 20 Feb 2022 13:28:21 GMT
 2 < Content-Length: 0
 2 < Connection: keep-alive
 2 < X-Powered-By: Express
@@ -205,17 +205,17 @@
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: DYNAMIC
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1CWRFSngR0XJXeXdDvO3nNi44gjzq%2BN9emvlQpM4Mzsdnp9DI%2BCzON3p4vR7h%2F8g%2Bc4UOJuy5YB6RslL8Y%2Fs7TncGa3ZzQ3gXUkca0HfVMPjfi0Ul67g6L%2FcDr2Q0I7VkB7C"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vuhyU0dX1Q0EjHVSnqkp85XEQQnsa2ptTY6T5%2BlF6z29pDuOqdnXOwLuZuGQWY0lEb4hmPkx5YeK9qK3U1mg5S%2FFQM5Or%2BIriSyC%2FrTy7BPOYcp3INtFgogjqVHeumSj4VRa"}],"group":"cf-nel","max_age":604800}
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 2 < Server: cloudflare
-2 < CF-RAY: 6df581a8d88d4900-SIN
+2 < CF-RAY: 6e0813d9aa1d6c03-SIN
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
-14:22:48.447 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.g.core.controller.inject.Injector - All users of scenario Create and Delete Article are stopped
-14:22:48.448 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.g.core.controller.inject.Injector - Stopping
-14:22:48.450 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
-14:22:48.556 [main] INFO  i.gatling.charts.stats.LogFileReader - Collected List(C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\gatling\perftest-20220218072243333\simulation.log) from perftest-20220218072243333
-14:22:48.575 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
-14:22:48.587 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 14 lines
-14:22:48.604 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
-14:22:48.637 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 14 lines
+20:28:20.941 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - All users of scenario Create and Delete Article are stopped
+20:28:20.941 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - Stopping
+20:28:20.949 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+20:28:21.158 [main] INFO  i.gatling.charts.stats.LogFileReader - Collected List(C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\gatling\perftest-20220220132808474\simulation.log) from perftest-20220220132808474
+20:28:21.202 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+20:28:21.224 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 14 lines
+20:28:21.268 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+20:28:21.320 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 14 lines

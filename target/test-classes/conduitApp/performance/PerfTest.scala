@@ -6,10 +6,9 @@ import scala.concurrent.duration._
 
 class PerfTest extends Simulation {
 
-  val protocol = karateProtocol()
-
-//   protocol.nameResolver = (req, ctx) => req.getHeader("karate-name")
-//   protocol.runner.karateEnv("perf")
+  val protocol = karateProtocol(
+    "/api/articles/{articleId}"-> Nil
+  )
 
   val createArticle = scenario("Create and Delete Article").exec(karateFeature("classpath:conduitApp/performance/createArticle.feature"))
 

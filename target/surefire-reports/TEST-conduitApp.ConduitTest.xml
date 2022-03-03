@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduitApp.ConduitTest" time="119.661" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/src/app/target/test-classes:/src/app/target/classes:/root/.m2/repository/com/intuit/karate/karate-junit5/1.1.0/karate-junit5-1.1.0.jar:/root/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar:/root/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/root/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/root/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/root/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/root/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/root/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/root/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/root/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/root/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/root/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/root/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/root/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/root/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/root/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/root/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/root/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/root/.m2/repository/net/masterthought/cucumber-reporting/5.3.1/cucumber-reporting-5.3.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/root/.m2/repository/org/apache/velocity/velocity-engine-core/2.1/velocity-engine-core-2.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/root/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/root/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/root/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20191001.1/owasp-java-html-sanitizer-20191001.1.jar:/root/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/root/.m2/repository/com/intuit/karate/karate-gatling/1.1.0/karate-gatling-1.1.0.jar:/root/.m2/repository/io/gatling/highcharts/gatling-charts-highcharts/3.6.0/gatling-charts-highcharts-3.6.0.jar:/root/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar:/root/.m2/repository/io/gatling/gatling-app/3.6.0/gatling-app-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-core/3.6.0/gatling-core-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-commons/3.6.0/gatling-commons-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-commons-shared/3.6.0/gatling-commons-shared-3.6.0.jar:/root/.m2/repository/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar:/root/.m2/repository/io/suzaku/boopickle_2.13/1.3.3/boopickle_2.13-1.3.3.jar:/root/.m2/repository/io/gatling/gatling-commons-shared-unstable/3.6.0/gatling-commons-shared-unstable-3.6.0.jar:/root/.m2/repository/org/typelevel/spire-macros_2.13/0.17.0/spire-macros_2.13-0.17.0.jar:/root/.m2/repository/com/typesafe/scala-logging/scala-logging_2.13/3.9.3/scala-logging_2.13-3.9.3.jar:/root/.m2/repository/io/gatling/gatling-jsonpath/3.6.0/gatling-jsonpath-3.6.0.jar:/root/.m2/repository/com/typesafe/akka/akka-slf4j_2.13/2.6.14/akka-slf4j_2.13-2.6.14.jar:/root/.m2/repository/org/simpleflatmapper/lightning-csv/8.2.3/lightning-csv-8.2.3.jar:/root/.m2/repository/org/simpleflatmapper/sfm-util/8.2.3/sfm-util-8.2.3.jar:/root/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.1/caffeine-2.9.1.jar:/root/.m2/repository/io/pebbletemplates/pebble/3.1.5/pebble-3.1.5.jar:/root/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/root/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/2.0.0/scala-parser-combinators_2.13-2.0.0.jar:/root/.m2/repository/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar:/root/.m2/repository/io/netty/netty-handler/4.1.64.Final/netty-handler-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-common/4.1.64.Final/netty-common-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-resolver/4.1.64.Final/netty-resolver-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.1.64.Final/netty-buffer-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.1.64.Final/netty-transport-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.1.64.Final/netty-codec-4.1.64.Final.jar:/root/.m2/repository/com/softwaremill/quicklens/quicklens_2.13/1.7.2/quicklens_2.13-1.7.2.jar:/root/.m2/repository/net/sf/saxon/Saxon-HE/10.5/Saxon-HE-10.5.jar:/root/.m2/repository/org/jodd/jodd-lagarto/6.0.5/jodd-lagarto-6.0.5.jar:/root/.m2/repository/org/jodd/jodd-util/6.0.1/jodd-util-6.0.1.jar:/root/.m2/repository/io/burt/jmespath-jackson/0.5.0/jmespath-jackson-0.5.0.jar:/root/.m2/repository/io/burt/jmespath-core/0.5.0/jmespath-core-0.5.0.jar:/root/.m2/repository/io/gatling/gatling-http/3.6.0/gatling-http-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-http-client/3.6.0/gatling-http-client-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-netty-util/3.6.0/gatling-netty-util-3.6.0.jar:/root/.m2/repository/io/netty/netty-handler-proxy/4.1.64.Final/netty-handler-proxy-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec-socks/4.1.64.Final/netty-codec-socks-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns/4.1.64.Final/netty-resolver-dns-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec-dns/4.1.64.Final/netty-codec-dns-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.64.Final/netty-transport-native-epoll-4.1.64.Final-linux-x86_64.jar:/root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.64.Final/netty-transport-native-unix-common-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec-http2/4.1.64.Final/netty-codec-http2-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.39.Final/netty-tcnative-boringssl-static-2.0.39.Final.jar:/root/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.4.2/brotli4j-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.4.2/native-linux-x86_64-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-linux-aarch64/1.4.2/native-linux-aarch64-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-osx-x86_64/1.4.2/native-osx-x86_64-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-windows-x86_64/1.4.2/native-windows-x86_64-1.4.2.jar:/root/.m2/repository/io/gatling/gatling-jms/3.6.0/gatling-jms-3.6.0.jar:/root/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:/root/.m2/repository/com/eatthepath/fast-uuid/0.1/fast-uuid-0.1.jar:/root/.m2/repository/io/gatling/gatling-jdbc/3.6.0/gatling-jdbc-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-redis/3.6.0/gatling-redis-3.6.0.jar:/root/.m2/repository/net/debasishg/redisclient_2.13/3.30/redisclient_2.13-3.30.jar:/root/.m2/repository/org/apache/commons/commons-pool2/2.8.0/commons-pool2-2.8.0.jar:/root/.m2/repository/io/gatling/gatling-graphite/3.6.0/gatling-graphite-3.6.0.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/root/.m2/repository/io/gatling/gatling-charts/3.6.0/gatling-charts-3.6.0.jar:/root/.m2/repository/com/tdunning/t-digest/3.1/t-digest-3.1.jar:/root/.m2/repository/io/gatling/gatling-recorder/3.6.0/gatling-recorder-3.6.0.jar:/root/.m2/repository/org/scala-lang/modules/scala-swing_2.13/3.0.0/scala-swing_2.13-3.0.0.jar:/root/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/root/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/root/.m2/repository/com/typesafe/akka/akka-actor_2.13/2.6.14/akka-actor_2.13-2.6.14.jar:/root/.m2/repository/com/typesafe/config/1.4.0/config-1.4.0.jar:/root/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/java/openjdk-17/lib"/>
+    <property name="sun.java.command" value="/src/app/target/surefire/surefirebooter17604563710219180736.jar /src/app/target/surefire 2022-02-27T07-41-22_722-jvmRun1 surefire17091614188886909136tmp surefire_013845265088143414924tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/src/app/target/test-classes:/src/app/target/classes:/root/.m2/repository/com/intuit/karate/karate-junit5/1.1.0/karate-junit5-1.1.0.jar:/root/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar:/root/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/root/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/root/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/root/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/root/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/root/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/root/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/root/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/root/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/root/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/root/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/root/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/root/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/root/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/root/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/root/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/root/.m2/repository/net/masterthought/cucumber-reporting/5.3.1/cucumber-reporting-5.3.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/root/.m2/repository/org/apache/velocity/velocity-engine-core/2.1/velocity-engine-core-2.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/root/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/root/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/root/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20191001.1/owasp-java-html-sanitizer-20191001.1.jar:/root/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/root/.m2/repository/com/intuit/karate/karate-gatling/1.1.0/karate-gatling-1.1.0.jar:/root/.m2/repository/io/gatling/highcharts/gatling-charts-highcharts/3.6.0/gatling-charts-highcharts-3.6.0.jar:/root/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar:/root/.m2/repository/io/gatling/gatling-app/3.6.0/gatling-app-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-core/3.6.0/gatling-core-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-commons/3.6.0/gatling-commons-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-commons-shared/3.6.0/gatling-commons-shared-3.6.0.jar:/root/.m2/repository/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar:/root/.m2/repository/io/suzaku/boopickle_2.13/1.3.3/boopickle_2.13-1.3.3.jar:/root/.m2/repository/io/gatling/gatling-commons-shared-unstable/3.6.0/gatling-commons-shared-unstable-3.6.0.jar:/root/.m2/repository/org/typelevel/spire-macros_2.13/0.17.0/spire-macros_2.13-0.17.0.jar:/root/.m2/repository/com/typesafe/scala-logging/scala-logging_2.13/3.9.3/scala-logging_2.13-3.9.3.jar:/root/.m2/repository/io/gatling/gatling-jsonpath/3.6.0/gatling-jsonpath-3.6.0.jar:/root/.m2/repository/com/typesafe/akka/akka-slf4j_2.13/2.6.14/akka-slf4j_2.13-2.6.14.jar:/root/.m2/repository/org/simpleflatmapper/lightning-csv/8.2.3/lightning-csv-8.2.3.jar:/root/.m2/repository/org/simpleflatmapper/sfm-util/8.2.3/sfm-util-8.2.3.jar:/root/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.1/caffeine-2.9.1.jar:/root/.m2/repository/io/pebbletemplates/pebble/3.1.5/pebble-3.1.5.jar:/root/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/root/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/2.0.0/scala-parser-combinators_2.13-2.0.0.jar:/root/.m2/repository/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar:/root/.m2/repository/io/netty/netty-handler/4.1.64.Final/netty-handler-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-common/4.1.64.Final/netty-common-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-resolver/4.1.64.Final/netty-resolver-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.1.64.Final/netty-buffer-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.1.64.Final/netty-transport-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.1.64.Final/netty-codec-4.1.64.Final.jar:/root/.m2/repository/com/softwaremill/quicklens/quicklens_2.13/1.7.2/quicklens_2.13-1.7.2.jar:/root/.m2/repository/net/sf/saxon/Saxon-HE/10.5/Saxon-HE-10.5.jar:/root/.m2/repository/org/jodd/jodd-lagarto/6.0.5/jodd-lagarto-6.0.5.jar:/root/.m2/repository/org/jodd/jodd-util/6.0.1/jodd-util-6.0.1.jar:/root/.m2/repository/io/burt/jmespath-jackson/0.5.0/jmespath-jackson-0.5.0.jar:/root/.m2/repository/io/burt/jmespath-core/0.5.0/jmespath-core-0.5.0.jar:/root/.m2/repository/io/gatling/gatling-http/3.6.0/gatling-http-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-http-client/3.6.0/gatling-http-client-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-netty-util/3.6.0/gatling-netty-util-3.6.0.jar:/root/.m2/repository/io/netty/netty-handler-proxy/4.1.64.Final/netty-handler-proxy-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec-socks/4.1.64.Final/netty-codec-socks-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns/4.1.64.Final/netty-resolver-dns-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec-dns/4.1.64.Final/netty-codec-dns-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.64.Final/netty-transport-native-epoll-4.1.64.Final-linux-x86_64.jar:/root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.64.Final/netty-transport-native-unix-common-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-codec-http2/4.1.64.Final/netty-codec-http2-4.1.64.Final.jar:/root/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.39.Final/netty-tcnative-boringssl-static-2.0.39.Final.jar:/root/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.4.2/brotli4j-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.4.2/native-linux-x86_64-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-linux-aarch64/1.4.2/native-linux-aarch64-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-osx-x86_64/1.4.2/native-osx-x86_64-1.4.2.jar:/root/.m2/repository/com/aayushatharva/brotli4j/native-windows-x86_64/1.4.2/native-windows-x86_64-1.4.2.jar:/root/.m2/repository/io/gatling/gatling-jms/3.6.0/gatling-jms-3.6.0.jar:/root/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:/root/.m2/repository/com/eatthepath/fast-uuid/0.1/fast-uuid-0.1.jar:/root/.m2/repository/io/gatling/gatling-jdbc/3.6.0/gatling-jdbc-3.6.0.jar:/root/.m2/repository/io/gatling/gatling-redis/3.6.0/gatling-redis-3.6.0.jar:/root/.m2/repository/net/debasishg/redisclient_2.13/3.30/redisclient_2.13-3.30.jar:/root/.m2/repository/org/apache/commons/commons-pool2/2.8.0/commons-pool2-2.8.0.jar:/root/.m2/repository/io/gatling/gatling-graphite/3.6.0/gatling-graphite-3.6.0.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/root/.m2/repository/io/gatling/gatling-charts/3.6.0/gatling-charts-3.6.0.jar:/root/.m2/repository/com/tdunning/t-digest/3.1/t-digest-3.1.jar:/root/.m2/repository/io/gatling/gatling-recorder/3.6.0/gatling-recorder-3.6.0.jar:/root/.m2/repository/org/scala-lang/modules/scala-swing_2.13/3.0.0/scala-swing_2.13-3.0.0.jar:/root/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/root/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/root/.m2/repository/com/typesafe/akka/akka-actor_2.13/2.6.14/akka-actor_2.13-2.6.14.jar:/root/.m2/repository/com/typesafe/config/1.4.0/config-1.4.0.jar:/root/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/usr/java/openjdk-17"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/src/app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="karate.options" value="--tags ~@ignore"/>
+    <property name="surefire.real.class.path" value="/src/app/target/surefire/surefirebooter17604563710219180736.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.60.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/src/app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="119.643">
+    <failure message="too many retry attempts: 10&#10;classpath:conduitApp/feature/HomePage.feature:70&#10;status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: &#10;{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}&#10;classpath:conduitApp/feature/HomeWork.feature:23&#10;match failed: EQUALS&#10;  $ | not equal (STRING:STRING)&#10;  &apos;If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.&apos;&#10;  &apos;apa aja boleh&apos;&#10;&#10;classpath:conduitApp/feature/HomeWork.feature:57&#10;status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: &#10;{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}&#10;classpath:conduitApp/feature/NewArticles.feature:23&#10;status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: &#10;{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}&#10;classpath:conduitApp/performance/createArticle.feature:25 ==&gt; expected: &lt;0&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+too many retry attempts: 10
+classpath:conduitApp/feature/HomePage.feature:70
+status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/HomeWork.feature:23
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
+  'apa aja boleh'
+
+classpath:conduitApp/feature/HomeWork.feature:57
+status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/NewArticles.feature:23
+status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/performance/createArticle.feature:25 ==> expected: <0> but was: <5>
+	at conduitApp.ConduitTest.testParallel(ConduitTest.java:26)
+]]></failure>
+    <system-out><![CDATA[07:41:30.367 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+07:41:52.849 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:41:56.728 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:41:57.754 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:41:59.450 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:42:53.612 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:70
+When method GET
+too many retry attempts: 10
+classpath:conduitApp/feature/HomePage.feature:70
+07:42:53.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:42:59.783 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:42:59.882 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:00.166 [main] INFO  com.intuit.karate - karate.env system property was: null 
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/HomePage.feature
+scenarios:  8 | passed:  7 | failed:  1 | time: 66.7649
+---------------------------------------------------------
+
+07:43:07.602 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 7 (0 remaining) classpath:conduitApp/feature/HomePage.feature
+07:43:07.678 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:10.497 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomeWork.feature:23
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/HomeWork.feature:23
+07:43:10.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:11.998 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomeWork.feature:57
+And match response.comments[0].body == "apa aja boleh"
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
+  'apa aja boleh'
+
+classpath:conduitApp/feature/HomeWork.feature:57
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/HomeWork.feature
+scenarios:  2 | passed:  0 | failed:  2 | time: 4.2860
+---------------------------------------------------------
+
+07:43:12.491 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 7 (0 remaining) classpath:conduitApp/feature/HomeWork.feature
+07:43:12.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:12.534 [main] INFO  com.intuit.karate - [print] This is first scenario 
+07:43:12.686 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
+* def dataGenerator = Java.type('Helpers.DataGenerator')
+js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+07:43:12.721 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
+>>>>
+01: function(){ karate.call('classpath:helpers/dummy.feature') }
+<<<<
+org.graalvm.polyglot.PolyglotException: js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:217)
+- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2013)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1909)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:163)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- <js>.:anonymous(Unnamed:1)
+
+07:43:12.750 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:12.768 [main] INFO  com.intuit.karate - [print] This is second scenario 
+07:43:12.832 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
+* def dataGenerator = Java.type('Helpers.DataGenerator')
+js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+07:43:12.839 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
+>>>>
+01: function(){ karate.call('classpath:helpers/dummy.feature') }
+<<<<
+org.graalvm.polyglot.PolyglotException: js failed:
+>>>>
+01: Java.type('Helpers.DataGenerator')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/DataGenerator (wrong name: Helpers/DataGenerator)
+- java.base/java.lang.ClassLoader.defineClass1(Native Method)
+- java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+- java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+- java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+- java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+- java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+
+classpath:helpers/dummy.feature:3
+- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:217)
+- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2013)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1909)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:163)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- <js>.:anonymous(Unnamed:1)
+
+07:43:12.849 [main] INFO  com.intuit.karate - After feature test 
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/Hooks.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 0.0347
+---------------------------------------------------------
+
+07:43:13.177 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 7 (0 remaining) classpath:conduitApp/feature/Hooks.feature
+07:43:13.207 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.233 [main] INFO  com.intuit.karate - [print] [
+  1,
+  4,
+  9
+]
+ 
+07:43:13.245 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.265 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.290 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.339 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.391 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.415 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.693 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:13.709 [main] INFO  com.intuit.karate - karate.env system property was: null 
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/JsonTransform.feature
+scenarios:  9 | passed:  9 | failed:  0 | time: 0.4898
+---------------------------------------------------------
+
+07:43:14.113 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 7 (0 remaining) classpath:conduitApp/feature/JsonTransform.feature
+07:43:14.136 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:14.829 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/NewArticles.feature:23
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/NewArticles.feature:23
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/NewArticles.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.6880
+---------------------------------------------------------
+
+07:43:15.074 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 7 (0 remaining) classpath:conduitApp/feature/NewArticles.feature
+07:43:15.094 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:15.976 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:16.714 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:17.732 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:18.364 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:19.052 [main] INFO  com.intuit.karate - karate.env system property was: null 
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/SignUp.feature
+scenarios:  6 | passed:  6 | failed:  0 | time: 4.5573
+---------------------------------------------------------
+
+07:43:20.046 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:conduitApp/feature/SignUp.feature
+07:43:20.068 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:43:20.810 [main] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticle.feature:25
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/performance/createArticle.feature:25
+---------------------------------------------------------
+feature: classpath:conduitApp/performance/createArticle.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.7344
+---------------------------------------------------------
+
+07:43:21.046 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 7 (0 remaining) classpath:conduitApp/performance/createArticle.feature
+Karate version: 1.1.0
+======================================================
+elapsed: 110.84 | threads:    1 | thread time: 77.56 
+features:     7 | skipped:    0 | efficiency: 0.70
+scenarios:   29 | passed:    24 | failed: 5
+======================================================
+>>> failed features:
+too many retry attempts: 10
+classpath:conduitApp/feature/HomePage.feature:70
+status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/HomeWork.feature:23
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
+  'apa aja boleh'
+
+classpath:conduitApp/feature/HomeWork.feature:57
+status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/NewArticles.feature:23
+status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/performance/createArticle.feature:25
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///src/app/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.feature.HomePage.json' contains 1 features
+Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.feature.HomeWork.json' contains 1 features
+Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.feature.Hooks.json' contains 1 features
+Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.feature.JsonTransform.json' contains 1 features
+Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.feature.NewArticles.json' contains 1 features
+Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.feature.SignUp.json' contains 1 features
+Feb 27, 2022 7:43:23 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/src/app/target/karate-reports/conduitApp.performance.createArticle.json' contains 1 features
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: conduitApp.ConduitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 119.661 s <<< FAILURE! - in conduitApp.ConduitTest
+testParallel  Time elapsed: 119.643 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+too many retry attempts: 10
+classpath:conduitApp/feature/HomePage.feature:70
+status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/HomeWork.feature:23
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
+  'apa aja boleh'
+
+classpath:conduitApp/feature/HomeWork.feature:57
+status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/feature/NewArticles.feature:23
+status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+{"status":"error","message":"missing authorization credentials"}
+classpath:conduitApp/performance/createArticle.feature:25 ==> expected: <0> but was: <5>
+	at conduitApp.ConduitTest.testParallel(ConduitTest.java:26)
+

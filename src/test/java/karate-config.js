@@ -18,5 +18,7 @@ function fn() {
   var accessToken = karate.callSingle('classpath:helpers/CreateToken.feature', config).authToken
   karate.configure('headers', {Authorization: 'Token ' + accessToken})
 
+  // note: klo comment dibuka nanti token yg diambil jadi 1 username aja buka 3 3nya yg didefine
+
   return config;
 }

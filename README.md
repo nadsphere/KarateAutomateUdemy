@@ -13,4 +13,3 @@ mvn clean test
 Note: 
 1) To run gatling project: mvn clean test-compile gatling:test or mvn test
 2) Di course 40, kalau mau nentuin durasi dalam detik/secod pake .seconds (ada titiknya). Soalnya kalo pake seconds aja itu akan tampil failed pas di hasil execution Response Time Distribution ama yg error
-3) 

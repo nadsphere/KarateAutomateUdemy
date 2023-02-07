@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Conduit Application</td>
-      <td>27 Feb 2022, 07:43</td>
+      <td>23 Jul 2022, 08:38</td>
     </tr>
   </tbody>
 </table>
@@ -127,18 +127,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">conduitApp/feature/HomeWork.feature</td>
-          <td      class="passed"    >27</td>
-          <td      class="failed"    >2</td>
-          <td     class="skipped"   >34</td>
+          <td      class="passed"    >56</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >6</td>
           <td >0</td>
           <td >0</td>
           <td class="total">63</td>
 
-          <td >0</td>
-          <td  class="failed"    >2</td>
+          <td  class="passed"    >1</td>
+          <td  class="failed"    >1</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="4285988334">4.285</td>
+          <td class="duration" data-value="6150945400">6.150</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.819</span>
+  <span class="lead-duration duration">0.259</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>07:43:07.679 karate.env system property was: null 
+        <pre>08:38:28.430 karate.env system property was: null 
 </pre>
       </div>
     </div>
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def timeValidator = read('classpath:helpers/time-validator.js')</span>
 
-  <span class="lead-duration duration">0.019</span>
+  <span class="lead-duration duration">0.005</span>
 
 </div>
 
@@ -297,7 +297,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def globalArticleReqBody = read('classpath:conduitApp/json/homeArticleRequest.json')</span>
 
-  <span class="lead-duration duration">0.050</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -324,7 +324,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
 
-  <span class="lead-duration duration">0.014</span>
+  <span class="lead-duration duration">0.005</span>
 
 </div>
 
@@ -351,7 +351,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomComment = dataGenerator.getRandomArticleValues().body</span>
 
-  <span class="lead-duration duration">0.735</span>
+  <span class="lead-duration duration">0.242</span>
 
 </div>
 
@@ -389,12 +389,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.991</span>
+  <span class="lead-duration duration">2.469</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Favorite articles</span>
 
@@ -405,16 +405,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details  in ">
+  <div id="element-4" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -424,7 +424,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-5" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -513,7 +513,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
 
-  <span class="lead-duration duration">1.278</span>
+  <span class="lead-duration duration">0.916</span>
 
 </div>
 
@@ -567,7 +567,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def getFavoritesCount = response.articles[0].favoritesCount</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -594,7 +594,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def getSlugID = response.articles[0].slug</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -621,7 +621,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path 'articles', getSlugID, 'favorite'</span>
 
-  <span class="lead-duration duration">0.060</span>
+  <span class="lead-duration duration">0.003</span>
 
 </div>
 
@@ -648,7 +648,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">0.645</span>
+  <span class="lead-duration duration">0.837</span>
 
 </div>
 
@@ -671,7 +671,7 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
@@ -684,37 +684,9 @@ $(document).ready(function() {
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>status</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
-{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}
-classpath:conduitApp/feature/HomeWork.feature:23</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>07:43:10.501 classpath:conduitApp/feature/HomeWork.feature:23
-Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
-{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}
-classpath:conduitApp/feature/HomeWork.feature:23
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -726,11 +698,11 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def responseTitle = response.article.title</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -753,7 +725,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def responseGlobalFeed = globalArticleReqBody.article.title</span>
 
@@ -780,7 +752,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match responseTitle == responseGlobalFeed</span>
 
@@ -807,7 +779,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def initialCount = 0</span>
 
@@ -834,7 +806,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def response = {&quot;favoritesCount&quot;: 1}</span>
 
@@ -861,7 +833,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">match response.favoritesCount == initialCount + 1</span>
 
@@ -888,7 +860,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">params {favorited:admoons, limit:10, offset:0}</span>
 
@@ -915,7 +887,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">path 'articles'</span>
 
@@ -942,11 +914,11 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.704</span>
 
 </div>
 
@@ -969,7 +941,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
@@ -996,7 +968,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match responseTitle == responseGlobalFeed</span>
 
@@ -1023,7 +995,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response.articles[0].slug == getSlugID</span>
 
@@ -1065,10 +1037,10 @@ classpath:conduitApp/feature/HomeWork.feature:23
 </div>
 
 
-  <span class="lead-duration duration">0.094</span>
+  <span class="lead-duration duration">0.031</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -1081,14 +1053,14 @@ classpath:conduitApp/feature/HomeWork.feature:23
   </span>
   <div class="description indention"></div>
 
-  <div id="element-8" class="collapse collapsable-details ">
+  <div id="element-6" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1100,7 +1072,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
 
   </div>
 
-  <div id="steps-9" class="inner-level collapse collapsable-details ">
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1122,11 +1094,11 @@ classpath:conduitApp/feature/HomeWork.feature:23
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
           <a>Doc string</a>
       </div>
-      <div id="msg-10" class="collapse collapsable-details">
-        <pre>07:43:10.517 karate.env system property was: null 
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>08:38:31.173 karate.env system property was: null 
 </pre>
       </div>
     </div>
@@ -1146,7 +1118,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">*</span>
   <span class="name">def timeValidator = read('classpath:helpers/time-validator.js')</span>
 
-  <span class="lead-duration duration">0.008</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -1173,7 +1145,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">*</span>
   <span class="name">def globalArticleReqBody = read('classpath:conduitApp/json/homeArticleRequest.json')</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1227,7 +1199,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">*</span>
   <span class="name">def randomComment = dataGenerator.getRandomArticleValues().body</span>
 
-  <span class="lead-duration duration">0.078</span>
+  <span class="lead-duration duration">0.025</span>
 
 </div>
 
@@ -1265,10 +1237,10 @@ classpath:conduitApp/feature/HomeWork.feature:23
 </div>
 
 
-  <span class="lead-duration duration">1.380</span>
+  <span class="lead-duration duration">3.390</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-9">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
@@ -1281,14 +1253,14 @@ classpath:conduitApp/feature/HomeWork.feature:23
   </span>
   <div class="description indention"></div>
 
-  <div id="element-11" class="collapse collapsable-details  in ">
+  <div id="element-9" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-12">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-10">
 
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -1300,7 +1272,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
 
   </div>
 
-  <div id="steps-12" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-10" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -1362,7 +1334,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
 
-  <span class="lead-duration duration">0.744</span>
+  <span class="lead-duration duration">0.848</span>
 
 </div>
 
@@ -1416,7 +1388,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">*</span>
   <span class="name">def getSlugsID = response.articles[0].slug</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1443,7 +1415,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">Given</span>
   <span class="name">path 'articles', getSlugsID, 'comments'</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1470,7 +1442,7 @@ classpath:conduitApp/feature/HomeWork.feature:23
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
 
-  <span class="lead-duration duration">0.631</span>
+  <span class="lead-duration duration">0.587</span>
 
 </div>
 
@@ -1520,11 +1492,11 @@ classpath:conduitApp/feature/HomeWork.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response.comments[0].body == &quot;apa aja boleh&quot;</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1533,43 +1505,9 @@ classpath:conduitApp/feature/HomeWork.feature:23
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-13">
-          <a>match</a>
-      </div>
-      <div id="msg-13" class="collapse collapsable-details  in ">
-        <pre>match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
-  'apa aja boleh'
-
-classpath:conduitApp/feature/HomeWork.feature:57</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-14" class="collapse collapsable-details">
-        <pre>07:43:11.999 classpath:conduitApp/feature/HomeWork.feature:57
-And match response.comments[0].body == &quot;apa aja boleh&quot;
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
-  'apa aja boleh'
-
-classpath:conduitApp/feature/HomeWork.feature:57
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1581,7 +1519,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def commentsCount = response.comments.length</span>
 
@@ -1608,7 +1546,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">path 'articles', getSlugsID, 'comments'</span>
 
@@ -1635,7 +1573,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">request { comment : { body : &quot;#(randomComment)&quot; } }</span>
 
@@ -1662,11 +1600,11 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.570</span>
 
 </div>
 
@@ -1689,7 +1627,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
@@ -1716,11 +1654,11 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response ==</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -1734,10 +1672,10 @@ classpath:conduitApp/feature/HomeWork.feature:57
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
           <a>Doc string</a>
       </div>
-      <div id="msg-15" class="collapse collapsable-details">
+      <div id="msg-11" class="collapse collapsable-details">
         <pre>{
     &quot;comment&quot;: {
         &quot;id&quot;: '#number',
@@ -1766,11 +1704,11 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def getCommentID = response.comment.id</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1793,7 +1731,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">path 'articles', getSlugsID, 'comments'</span>
 
@@ -1820,11 +1758,11 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.635</span>
 
 </div>
 
@@ -1847,7 +1785,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
@@ -1874,7 +1812,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def commentIncreased = response.comments.length</span>
 
@@ -1901,7 +1839,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">match commentIncreased == commentsCount + 1</span>
 
@@ -1928,7 +1866,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">print 'jumlah comment terbaru: ' + commentIncreased</span>
 
@@ -1944,6 +1882,17 @@ classpath:conduitApp/feature/HomeWork.feature:57
 
 
 
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>08:38:33.862 [print] jumlah comment terbaru: 2 
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1955,7 +1904,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">path 'articles', getSlugsID, 'comments', getCommentID</span>
 
@@ -1982,11 +1931,11 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">method DELETE</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.735</span>
 
 </div>
 
@@ -2009,7 +1958,7 @@ classpath:conduitApp/feature/HomeWork.feature:57
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">status 204</span>
 
@@ -2022,9 +1971,37 @@ classpath:conduitApp/feature/HomeWork.feature:57
 
 
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-13">
+          <a>status</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details  in ">
+        <pre>status code was: 200, expected: 204, response time in milliseconds: 734, url: https://api.realworld.io/api/articles/This-is-title-21074/comments/16982, response: 
+{}
+classpath:conduitApp/feature/HomeWork.feature:97</pre>
+      </div>
+    </div>
+  </div>
 
 
 
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>08:38:34.599 classpath:conduitApp/feature/HomeWork.feature:97
+Then status 204
+status code was: 200, expected: 204, response time in milliseconds: 734, url: https://api.realworld.io/api/articles/This-is-title-21074/comments/16982, response: 
+{}
+classpath:conduitApp/feature/HomeWork.feature:97
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 

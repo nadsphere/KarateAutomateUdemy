@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                207,
-                7,
-                58,
+                52,
+                0,
+                0,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 272) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 52) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                22,
-                7
+                5,
+                0
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 29) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   2,
-                   5
+                   1,
+                   0
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 7) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Conduit Application</td>
-      <td>27 Feb 2022, 07:43</td>
+      <td>23 Jul 2022, 10:30</td>
     </tr>
   </tbody>
 </table>
@@ -323,156 +323,54 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_3370388602.html">conduitApp/feature/HomePage.feature</a></td>
+        <td class="tagname"><a href="report-feature_2533687524.html">conduitApp/feature/SignUp.feature</a></td>
 
-        <td      class="passed"    >55</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >1</td>
+        <td      class="passed"    >52</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">57</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">52</td>
 
-        <td  class="passed"    >7</td>
-        <td  class="failed"    >1</td>
-        <td class="total">8</td>
+        <td  class="passed"    >5</td>
+        <td >0</td>
+        <td class="total">5</td>
 
-        <td class="duration" data-value="66764936619">1:6.764</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_1_470011644.html">conduitApp/feature/HomeWork.feature</a></td>
-
-        <td      class="passed"    >27</td>
-        <td      class="failed"    >2</td>
-        <td     class="skipped"   >34</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">63</td>
-
-        <td >0</td>
-        <td  class="failed"    >2</td>
-        <td class="total">2</td>
-
-        <td class="duration" data-value="4285988334">4.285</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_2_3445268850.html">conduitApp/feature/Hooks.feature</a></td>
-
-        <td      class="passed"    >8</td>
-        <td      class="failed"    >2</td>
-        <td     class="skipped"   >4</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">14</td>
-
-        <td >0</td>
-        <td  class="failed"    >2</td>
-        <td class="total">2</td>
-
-        <td class="duration" data-value="148986968">0.148</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_3_3244668454.html">conduitApp/feature/JsonTransform.feature</a></td>
-
-        <td      class="passed"    >41</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">41</td>
-
-        <td  class="passed"    >9</td>
-        <td >0</td>
-        <td class="total">9</td>
-
-        <td class="duration" data-value="489812625">0.489</td>
+        <td class="duration" data-value="5779298700">5.779</td>
         <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_4_2032163967.html">conduitApp/feature/NewArticles.feature</a></td>
-
-        <td      class="passed"    >9</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >14</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">24</td>
-
-        <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="687973812">0.687</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_5_2533687524.html">conduitApp/feature/SignUp.feature</a></td>
-
-        <td      class="passed"    >54</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">54</td>
-
-        <td  class="passed"    >6</td>
-        <td >0</td>
-        <td class="total">6</td>
-
-        <td class="duration" data-value="4557271430">4.557</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_6_229880054.html">conduitApp/performance/createArticle.feature</a></td>
-
-        <td      class="passed"    >13</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >5</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">19</td>
-
-        <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="734409187">0.734</td>
-        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>207</td>
-      <td>7</td>
-      <td>58</td>
+      <td>52</td>
       <td>0</td>
       <td>0</td>
-      <td>272</td>
+      <td>0</td>
+      <td>0</td>
+      <td>52</td>
 
-      <td>22</td>
-      <td>7</td>
-      <td>29</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
 
-      <td class="duration">1:17.669</td>
-      <td>7</td>
+      <td class="duration">5.779</td>
+      <td>1</td>
     </tr>
     <tr>
       <td></td>
-      <td>76.10%</td>
-      <td>2.57%</td>
-      <td>21.32%</td>
+      <td>100.00%</td>
+      <td>0.00%</td>
+      <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>75.86%</td>
-      <td>24.14%</td>
+      <td>100.00%</td>
+      <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>28.57%</td>
+      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>

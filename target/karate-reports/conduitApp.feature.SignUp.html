@@ -10,6 +10,21 @@
     <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
     <script type="text/javascript" src="res/bootstrap.min.js"></script>
     <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("6afe39b1-a832-4de3-b558-70f1a743a06f",{name:"Nads"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
     <title>conduitApp.feature.SignUp</title>  
   </head>
   <body>   
@@ -18,11 +33,11 @@
                 
         <div>
   <div class="nav-logo">
-    <a href="karate-summary.html">
-      <img src="karate-logo.svg" alt="Karate"/>
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">6</div>
+      <div id="nav-pass" class="bg-success">5</div>
       <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
@@ -30,28 +45,25 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-02-27 07:43:19 AM</div>
+    <div>2022-07-23 10:30:21 AM</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:8]"><span>[1:8]</span> <span>New User Sign up</span></a>
+            <a href="#[2.1:54]"><span>[2.1:54]</span> <span>Validate Sign Up error messages</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2.1:53]"><span>[2.1:53]</span> <span>Validate Sign Up error messages</span></a>
+            <a href="#[2.2:55]"><span>[2.2:55]</span> <span>Validate Sign Up error messages</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2.2:54]"><span>[2.2:54]</span> <span>Validate Sign Up error messages</span></a>
+            <a href="#[2.3:56]"><span>[2.3:56]</span> <span>Validate Sign Up error messages</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2.3:55]"><span>[2.3:55]</span> <span>Validate Sign Up error messages</span></a>
+            <a href="#[2.4:57]"><span>[2.4:57]</span> <span>Validate Sign Up error messages</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2.4:56]"><span>[2.4:56]</span> <span>Validate Sign Up error messages</span></a>
-          </div>
-          <div class="nav-item passed">
-            <a href="#[2.5:57]"><span>[2.5:57]</span> <span>Validate Sign Up error messages</span></a>
+            <a href="#[2.5:58]"><span>[2.5:58]</span> <span>Validate Sign Up error messages</span></a>
           </div>
         </div>
       </div>
@@ -65,41 +77,77 @@
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:8]">
+          <div class="scenario-heading" id="[2.1:54]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:8]</span>
-                <span class="scenario-name">New User Sign up</span>
+                Scenario: <span>[2.1:54]</span>
+                <span class="scenario-name">Validate Sign Up error messages</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>860</span>
+              <span>ms:</span>&nbsp;<span>982</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:8]bg">
+            <div class="step-container" id="[2.1:54]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:8]bg"><div>
+          <div data-parent="[2.1:54]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.3">
+    <div class="step-container" id="1.3">
       <div class="step-ref bg-step">3</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
       </div>
     </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.3">10:30:18.011 &lt;&lt; lock released, cached callSingle: classpath:helpers/CreateToken.feature
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.3.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">2021</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.3.0.call">
+    <div class="step-container" id="1.3.0.call.0.3">
+      <div class="step-ref bg-step">3</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
     <div class="time-cell passed">1</div>
   </div>
 
@@ -109,108 +157,25 @@
 
   
 
-  <div class="preformatted" data-parent="0.3">07:43:15.098 karate.env system property was: null 
+  <div class="preformatted" data-parent="1.3.0.call.0.3">10:30:15.878 karate.env system property was: null 
+10:30:15.891 &gt;&gt; lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:8]bg"><div>
+      <div><div>
   
 
   
 
-  <div class="step-row">
-    <div class="step-container" id="0.4">
+  <div class="step-row" data-parent="1.3.0.call">
+    <div class="step-container" id="1.3.0.call.0.4">
       <div class="step-ref bg-step">4</div>
-      
+      <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
-      </div>
-    </div>
-    <div class="time-cell passed">90</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div data-parent="[1:8]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.5">
-      <div class="step-ref bg-step">5</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def randomUname = dataGenerator.getRandomUsername()</span>
-      </div>
-    </div>
-    <div class="time-cell passed">33</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div data-parent="[1:8]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref bg-step">6</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>url apiUrl</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.9">
-      <div class="step-ref passed">9</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>path &#39;users&#39;</span>
+        <span>And</span>&nbsp;<span>path &#39;users/login&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -228,31 +193,25 @@
 
 </div>
 </div>
-          <div><div>
+      <div><div>
   
 
   
 
-  <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref passed">10</div>
-      
+  <div class="step-row" data-parent="1.3.0.call">
+    <div class="step-container" id="1.3.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request</span>
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;, &quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">45</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.10">{
-    &quot;user&quot;: {
-        &quot;email&quot;: #(randomEmail),
-        &quot;password&quot;: &quot;admkarate123&quot;,
-        &quot;username&quot;: #(randomUname)
-    }
-}</div>
+  
 
   
 
@@ -262,20 +221,20 @@
 
 </div>
 </div>
-          <div><div>
+      <div><div>
   
 
   
 
-  <div class="step-row">
-    <div class="step-container" id="0.20">
-      <div class="step-ref passed">20</div>
-      
+  <div class="step-row" data-parent="1.3.0.call">
+    <div class="step-container" id="1.3.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">729</div>
+    <div class="time-cell passed">1965</div>
   </div>
 
    
@@ -290,15 +249,15 @@
 
 </div>
 </div>
-          <div><div>
+      <div><div>
   
 
   
 
-  <div class="step-row">
-    <div class="step-container" id="0.21">
-      <div class="step-ref passed">21</div>
-      
+  <div class="step-row" data-parent="1.3.0.call">
+    <div class="step-container" id="1.3.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
@@ -318,33 +277,25 @@
 
 </div>
 </div>
-          <div><div>
+      <div><div>
   
 
   
 
-  <div class="step-row">
-    <div class="step-container" id="0.22">
-      <div class="step-ref passed">22</div>
-      
+  <div class="step-row" data-parent="1.3.0.call">
+    <div class="step-container" id="1.3.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response ==</span>
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.22">{
-    &quot;user&quot;: {
-        &quot;email&quot;: #(randomEmail),
-        &quot;username&quot;: #(randomUname),
-        &quot;bio&quot;: null,
-        &quot;image&quot;: &quot;#string&quot;,
-        &quot;token&quot;: &quot;#string&quot;
-    }
-}</div>
+  
 
   
 
@@ -354,60 +305,12 @@
 
 </div>
 </div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[2.1:53]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[2.1:53]</span>
-                <span class="scenario-name">Validate Sign Up error messages</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>721</span>
-            </div>
-          </div>
-          <div class="step-row">
-            <div class="step-container" id="[2.1:53]bg">
-              <div class="step-ref bg-step">&gt;&gt;</div>
-              <div class="step-cell passed">Background:</div>
-            </div>
-            <div class="time-cell passed"></div>
-          </div>
-          <div data-parent="[2.1:53]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="1.3">
-      <div class="step-ref bg-step">3</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
+    </div>    
   </div>
 
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="1.3">07:43:15.977 karate.env system property was: null 
-</div>   
-
-  
-
 </div>
 </div>
-          <div data-parent="[2.1:53]bg"><div>
+          <div data-parent="[2.1:54]bg"><div>
   
 
   
@@ -420,7 +323,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">50</div>
+    <div class="time-cell passed">252</div>
   </div>
 
    
@@ -435,7 +338,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.1:53]bg"><div>
+          <div data-parent="[2.1:54]bg"><div>
   
 
   
@@ -448,7 +351,7 @@
         <span>*</span>&nbsp;<span>def randomUname = dataGenerator.getRandomUsername()</span>
       </div>
     </div>
-    <div class="time-cell passed">81</div>
+    <div class="time-cell passed">72</div>
   </div>
 
    
@@ -463,7 +366,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.1:53]bg"><div>
+          <div data-parent="[2.1:54]bg"><div>
   
 
   
@@ -474,34 +377,6 @@
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>url apiUrl</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="1.36">
-      <div class="step-ref passed">36</div>
-      
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -529,6 +404,34 @@
       <div class="step-ref passed">37</div>
       
       <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
@@ -537,7 +440,7 @@
 
    
   
-  <div class="preformatted" data-parent="1.37">{
+  <div class="preformatted" data-parent="1.38">{
     &quot;user&quot;: {
         &quot;email&quot;: &quot;#(randomEmail)&quot;,
         &quot;password&quot;: &quot;user1234&quot;,
@@ -559,14 +462,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="1.47">
-      <div class="step-ref passed">47</div>
+    <div class="step-container" id="1.48">
+      <div class="step-ref passed">48</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">588</div>
+    <div class="time-cell passed">622</div>
   </div>
 
    
@@ -587,8 +490,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="1.48">
-      <div class="step-ref passed">48</div>
+    <div class="step-container" id="1.49">
+      <div class="step-ref passed">49</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 422</span>
@@ -615,14 +518,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="1.49">
-      <div class="step-ref passed">49</div>
+    <div class="step-container" id="1.50">
+      <div class="step-ref passed">50</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == {&quot;errors&quot;:{&quot;username&quot;:[&quot;has already been taken&quot;]}}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">25</div>
   </div>
 
    
@@ -639,29 +542,29 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2.2:54]">
+          <div class="scenario-heading" id="[2.2:55]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2.2:54]</span>
+                Scenario: <span>[2.2:55]</span>
                 <span class="scenario-name">Validate Sign Up error messages</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1007</span>
+              <span>ms:</span>&nbsp;<span>783</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2.2:54]bg">
+            <div class="step-container" id="[2.2:55]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2.2:54]bg"><div>
+          <div data-parent="[2.2:55]bg"><div>
   
 
   
@@ -674,7 +577,7 @@
         <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -683,14 +586,14 @@
 
   
 
-  <div class="preformatted" data-parent="2.3">07:43:16.715 karate.env system property was: null 
+  <div class="preformatted" data-parent="2.3">10:30:19.030 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.2:54]bg"><div>
+          <div data-parent="[2.2:55]bg"><div>
   
 
   
@@ -703,7 +606,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">40</div>
+    <div class="time-cell passed">79</div>
   </div>
 
    
@@ -718,7 +621,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.2:54]bg"><div>
+          <div data-parent="[2.2:55]bg"><div>
   
 
   
@@ -731,7 +634,7 @@
         <span>*</span>&nbsp;<span>def randomUname = dataGenerator.getRandomUsername()</span>
       </div>
     </div>
-    <div class="time-cell passed">32</div>
+    <div class="time-cell passed">43</div>
   </div>
 
    
@@ -746,7 +649,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.2:54]bg"><div>
+          <div data-parent="[2.2:55]bg"><div>
   
 
   
@@ -780,14 +683,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="2.36">
-      <div class="step-ref passed">36</div>
+    <div class="step-container" id="2.37">
+      <div class="step-ref passed">37</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -808,8 +711,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="2.37">
-      <div class="step-ref passed">37</div>
+    <div class="step-container" id="2.38">
+      <div class="step-ref passed">38</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
@@ -820,7 +723,7 @@
 
    
   
-  <div class="preformatted" data-parent="2.37">{
+  <div class="preformatted" data-parent="2.38">{
     &quot;user&quot;: {
         &quot;email&quot;: &quot;userkarate@mail.com&quot;,
         &quot;password&quot;: &quot;user1234&quot;,
@@ -842,14 +745,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="2.47">
-      <div class="step-ref passed">47</div>
+    <div class="step-container" id="2.48">
+      <div class="step-ref passed">48</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">931</div>
+    <div class="time-cell passed">656</div>
   </div>
 
    
@@ -870,8 +773,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="2.48">
-      <div class="step-ref passed">48</div>
+    <div class="step-container" id="2.49">
+      <div class="step-ref passed">49</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 422</span>
@@ -898,8 +801,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="2.49">
-      <div class="step-ref passed">49</div>
+    <div class="step-container" id="2.50">
+      <div class="step-ref passed">50</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == {&quot;errors&quot;:{&quot;email&quot;:[&quot;has already been taken&quot;]}}</span>
@@ -922,29 +825,29 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2.3:55]">
+          <div class="scenario-heading" id="[2.3:56]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2.3:55]</span>
+                Scenario: <span>[2.3:56]</span>
                 <span class="scenario-name">Validate Sign Up error messages</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>619</span>
+              <span>ms:</span>&nbsp;<span>686</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2.3:55]bg">
+            <div class="step-container" id="[2.3:56]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2.3:55]bg"><div>
+          <div data-parent="[2.3:56]bg"><div>
   
 
   
@@ -957,7 +860,7 @@
         <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -966,14 +869,14 @@
 
   
 
-  <div class="preformatted" data-parent="3.3">07:43:17.733 karate.env system property was: null 
+  <div class="preformatted" data-parent="3.3">10:30:19.844 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.3:55]bg"><div>
+          <div data-parent="[2.3:56]bg"><div>
   
 
   
@@ -986,7 +889,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">27</div>
+    <div class="time-cell passed">55</div>
   </div>
 
    
@@ -1001,7 +904,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.3:55]bg"><div>
+          <div data-parent="[2.3:56]bg"><div>
   
 
   
@@ -1029,7 +932,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.3:55]bg"><div>
+          <div data-parent="[2.3:56]bg"><div>
   
 
   
@@ -1063,8 +966,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="3.36">
-      <div class="step-ref passed">36</div>
+    <div class="step-container" id="3.37">
+      <div class="step-ref passed">37</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
@@ -1091,19 +994,19 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="3.37">
-      <div class="step-ref passed">37</div>
+    <div class="step-container" id="3.38">
+      <div class="step-ref passed">38</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="3.37">{
+  <div class="preformatted" data-parent="3.38">{
     &quot;user&quot;: {
         &quot;email&quot;: &quot;&quot;,
         &quot;password&quot;: &quot;user1234&quot;,
@@ -1125,42 +1028,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="3.47">
-      <div class="step-ref passed">47</div>
+    <div class="step-container" id="3.48">
+      <div class="step-ref passed">48</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">561</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="3.48">
-      <div class="step-ref passed">48</div>
-      
-      <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 422</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">597</div>
   </div>
 
    
@@ -1185,6 +1060,34 @@
       <div class="step-ref passed">49</div>
       
       <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 422</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == {&quot;errors&quot;:{&quot;email&quot;:[&quot;can&#39;t be blank&quot;]}}</span>
       </div>
     </div>
@@ -1205,29 +1108,29 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2.4:56]">
+          <div class="scenario-heading" id="[2.4:57]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2.4:56]</span>
+                Scenario: <span>[2.4:57]</span>
                 <span class="scenario-name">Validate Sign Up error messages</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>676</span>
+              <span>ms:</span>&nbsp;<span>657</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2.4:56]bg">
+            <div class="step-container" id="[2.4:57]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2.4:56]bg"><div>
+          <div data-parent="[2.4:57]bg"><div>
   
 
   
@@ -1249,14 +1152,14 @@
 
   
 
-  <div class="preformatted" data-parent="4.3">07:43:18.365 karate.env system property was: null 
+  <div class="preformatted" data-parent="4.3">10:30:20.548 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.4:56]bg"><div>
+          <div data-parent="[2.4:57]bg"><div>
   
 
   
@@ -1269,7 +1172,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">33</div>
+    <div class="time-cell passed">32</div>
   </div>
 
    
@@ -1284,7 +1187,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.4:56]bg"><div>
+          <div data-parent="[2.4:57]bg"><div>
   
 
   
@@ -1297,7 +1200,7 @@
         <span>*</span>&nbsp;<span>def randomUname = dataGenerator.getRandomUsername()</span>
       </div>
     </div>
-    <div class="time-cell passed">45</div>
+    <div class="time-cell passed">53</div>
   </div>
 
    
@@ -1312,7 +1215,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.4:56]bg"><div>
+          <div data-parent="[2.4:57]bg"><div>
   
 
   
@@ -1325,7 +1228,7 @@
         <span>*</span>&nbsp;<span>url apiUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1346,8 +1249,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="4.36">
-      <div class="step-ref passed">36</div>
+    <div class="step-container" id="4.37">
+      <div class="step-ref passed">37</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
@@ -1374,19 +1277,19 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="4.37">
-      <div class="step-ref passed">37</div>
+    <div class="step-container" id="4.38">
+      <div class="step-ref passed">38</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="4.37">{
+  <div class="preformatted" data-parent="4.38">{
     &quot;user&quot;: {
         &quot;email&quot;: &quot;#(randomEmail)&quot;,
         &quot;password&quot;: &quot;&quot;,
@@ -1408,14 +1311,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="4.47">
-      <div class="step-ref passed">47</div>
+    <div class="step-container" id="4.48">
+      <div class="step-ref passed">48</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">594</div>
+    <div class="time-cell passed">567</div>
   </div>
 
    
@@ -1436,8 +1339,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="4.48">
-      <div class="step-ref passed">48</div>
+    <div class="step-container" id="4.49">
+      <div class="step-ref passed">49</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 422</span>
@@ -1464,8 +1367,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="4.49">
-      <div class="step-ref passed">49</div>
+    <div class="step-container" id="4.50">
+      <div class="step-ref passed">50</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == {&quot;errors&quot;:{&quot;password&quot;:[&quot;can&#39;t be blank&quot;]}}</span>
@@ -1488,29 +1391,29 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2.5:57]">
+          <div class="scenario-heading" id="[2.5:58]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2.5:57]</span>
+                Scenario: <span>[2.5:58]</span>
                 <span class="scenario-name">Validate Sign Up error messages</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>674</span>
+              <span>ms:</span>&nbsp;<span>650</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2.5:57]bg">
+            <div class="step-container" id="[2.5:58]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2.5:57]bg"><div>
+          <div data-parent="[2.5:58]bg"><div>
   
 
   
@@ -1532,14 +1435,14 @@
 
   
 
-  <div class="preformatted" data-parent="5.3">07:43:19.053 karate.env system property was: null 
+  <div class="preformatted" data-parent="5.3">10:30:21.227 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.5:57]bg"><div>
+          <div data-parent="[2.5:58]bg"><div>
   
 
   
@@ -1552,7 +1455,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">35</div>
+    <div class="time-cell passed">30</div>
   </div>
 
    
@@ -1567,7 +1470,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.5:57]bg"><div>
+          <div data-parent="[2.5:58]bg"><div>
   
 
   
@@ -1580,7 +1483,7 @@
         <span>*</span>&nbsp;<span>def randomUname = dataGenerator.getRandomUsername()</span>
       </div>
     </div>
-    <div class="time-cell passed">38</div>
+    <div class="time-cell passed">31</div>
   </div>
 
    
@@ -1595,7 +1498,7 @@
 
 </div>
 </div>
-          <div data-parent="[2.5:57]bg"><div>
+          <div data-parent="[2.5:58]bg"><div>
   
 
   
@@ -1629,8 +1532,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="5.36">
-      <div class="step-ref passed">36</div>
+    <div class="step-container" id="5.37">
+      <div class="step-ref passed">37</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
@@ -1657,8 +1560,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="5.37">
-      <div class="step-ref passed">37</div>
+    <div class="step-container" id="5.38">
+      <div class="step-ref passed">38</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
@@ -1669,7 +1572,7 @@
 
    
   
-  <div class="preformatted" data-parent="5.37">{
+  <div class="preformatted" data-parent="5.38">{
     &quot;user&quot;: {
         &quot;email&quot;: &quot;#(randomEmail)&quot;,
         &quot;password&quot;: &quot;user1234&quot;,
@@ -1691,42 +1594,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="5.47">
-      <div class="step-ref passed">47</div>
+    <div class="step-container" id="5.48">
+      <div class="step-ref passed">48</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">597</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="5.48">
-      <div class="step-ref passed">48</div>
-      
-      <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 422</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">585</div>
   </div>
 
    
@@ -1751,10 +1626,38 @@
       <div class="step-ref passed">49</div>
       
       <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 422</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == {&quot;errors&quot;:{&quot;username&quot;:[&quot;can&#39;t be blank&quot;]}}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    

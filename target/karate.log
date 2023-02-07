@@ -1,210 +1,27 @@
-11:22:14.065 [main] INFO  io.gatling.compiler.ZincCompiler$ - compiling 1 Scala source and 1 Java source to C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\test-classes ...
-11:22:18.640 [main] INFO  io.gatling.compiler.ZincCompiler$ - jar:file:///C:/Users/Nadia/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar!/com/intuit/karate/core/Feature.java: Some input files use unchecked or unsafe operations.
-11:22:18.640 [main] INFO  io.gatling.compiler.ZincCompiler$ - jar:file:///C:/Users/Nadia/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar!/com/intuit/karate/core/Feature.java: Recompile with -Xlint:unchecked for details.
-11:22:18.770 [main] WARN  io.gatling.compiler.ZincCompiler$ - Could not determine source for class com.intuit.karate.core.Feature
-11:22:18.774 [main] WARN  io.gatling.compiler.ZincCompiler$ - Could not determine source for class com.intuit.karate.core.FeatureSection
-11:22:18.774 [main] WARN  io.gatling.compiler.ZincCompiler$ - Could not determine source for class com.intuit.karate.core.Step
-11:22:18.790 [main] INFO  io.gatling.compiler.ZincCompiler$ - done compiling
-11:22:20.021 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to use 'gatling.conf' as config file.
-11:22:20.583 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
-11:22:23.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:25.287 [main] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:26.060 [GatlingSystem-akka.actor.default-dispatcher-15] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
-11:22:26.060 [GatlingSystem-akka.actor.default-dispatcher-14] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
-11:22:26.077 [GatlingSystem-akka.actor.default-dispatcher-14] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
-11:22:26.079 [GatlingSystem-akka.actor.default-dispatcher-15] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
-11:22:26.168 [GatlingSystem-akka.actor.default-dispatcher-21] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:30.145 [GatlingSystem-akka.actor.default-dispatcher-33] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:31.128 [GatlingSystem-akka.actor.default-dispatcher-41] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:32.119 [GatlingSystem-akka.actor.default-dispatcher-47] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:33.113 [GatlingSystem-akka.actor.default-dispatcher-60] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:33.619 [GatlingSystem-akka.actor.default-dispatcher-64] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:34.123 [GatlingSystem-akka.actor.default-dispatcher-70] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:34.621 [GatlingSystem-akka.actor.default-dispatcher-74] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:35.117 [GatlingSystem-akka.actor.default-dispatcher-80] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:35.618 [GatlingSystem-akka.actor.default-dispatcher-84] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:36.107 [GatlingSystem-akka.actor.default-dispatcher-90] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:36.611 [GatlingSystem-akka.actor.default-dispatcher-103] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:37.104 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:37.615 [GatlingSystem-akka.actor.default-dispatcher-15] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:38.115 [GatlingSystem-akka.actor.default-dispatcher-27] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:38.612 [GatlingSystem-akka.actor.default-dispatcher-38] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:39.124 [GatlingSystem-akka.actor.default-dispatcher-46] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:39.607 [GatlingSystem-akka.actor.default-dispatcher-57] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:40.116 [GatlingSystem-akka.actor.default-dispatcher-73] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:40.616 [GatlingSystem-akka.actor.default-dispatcher-88] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:41.113 [GatlingSystem-akka.actor.default-dispatcher-102] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:41.613 [GatlingSystem-akka.actor.default-dispatcher-104] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:42.114 [GatlingSystem-akka.actor.default-dispatcher-22] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:42.609 [GatlingSystem-akka.actor.default-dispatcher-44] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:43.103 [GatlingSystem-akka.actor.default-dispatcher-55] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:43.619 [GatlingSystem-akka.actor.default-dispatcher-71] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:44.115 [GatlingSystem-akka.actor.default-dispatcher-86] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:44.615 [GatlingSystem-akka.actor.default-dispatcher-100] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:45.117 [GatlingSystem-akka.actor.default-dispatcher-13] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:45.446 [GatlingSystem-akka.actor.default-dispatcher-25] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:45.780 [GatlingSystem-akka.actor.default-dispatcher-31] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:46.107 [GatlingSystem-akka.actor.default-dispatcher-21] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:46.353 [GatlingSystem-akka.actor.default-dispatcher-60] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:46.611 [GatlingSystem-akka.actor.default-dispatcher-65] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:46.858 [GatlingSystem-akka.actor.default-dispatcher-75] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:47.113 [GatlingSystem-akka.actor.default-dispatcher-83] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:47.360 [GatlingSystem-akka.actor.default-dispatcher-93] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:47.603 [GatlingSystem-akka.actor.default-dispatcher-99] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:47.854 [GatlingSystem-akka.actor.default-dispatcher-14] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:48.095 [GatlingSystem-akka.actor.default-dispatcher-46] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:48.351 [GatlingSystem-akka.actor.default-dispatcher-26] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:48.599 [GatlingSystem-akka.actor.default-dispatcher-35] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:48.865 [GatlingSystem-akka.actor.default-dispatcher-48] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:49.110 [GatlingSystem-akka.actor.default-dispatcher-58] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:49.362 [GatlingSystem-akka.actor.default-dispatcher-62] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:49.612 [GatlingSystem-akka.actor.default-dispatcher-72] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:49.857 [GatlingSystem-akka.actor.default-dispatcher-89] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:50.102 [GatlingSystem-akka.actor.default-dispatcher-33] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:50.301 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:50.504 [GatlingSystem-akka.actor.default-dispatcher-41] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:50.712 [GatlingSystem-akka.actor.default-dispatcher-20] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:50.913 [GatlingSystem-akka.actor.default-dispatcher-34] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:51.119 [GatlingSystem-akka.actor.default-dispatcher-51] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:51.270 [GatlingSystem-akka.actor.default-dispatcher-54] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:51.440 [GatlingSystem-akka.actor.default-dispatcher-67] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:51.610 [GatlingSystem-akka.actor.default-dispatcher-63] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:51.780 [GatlingSystem-akka.actor.default-dispatcher-82] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:51.930 [GatlingSystem-akka.actor.default-dispatcher-102] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:52.102 [GatlingSystem-akka.actor.default-dispatcher-104] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:52.278 [GatlingSystem-akka.actor.default-dispatcher-12] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:52.433 [GatlingSystem-akka.actor.default-dispatcher-19] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:52.606 [GatlingSystem-akka.actor.default-dispatcher-40] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:52.772 [GatlingSystem-akka.actor.default-dispatcher-73] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:52.951 [GatlingSystem-akka.actor.default-dispatcher-68] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:53.115 [GatlingSystem-akka.actor.default-dispatcher-70] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:53.277 [GatlingSystem-akka.actor.default-dispatcher-79] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:53.446 [GatlingSystem-akka.actor.default-dispatcher-98] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:53.601 [GatlingSystem-akka.actor.default-dispatcher-24] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:53.771 [GatlingSystem-akka.actor.default-dispatcher-80] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:53.936 [GatlingSystem-akka.actor.default-dispatcher-57] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:54.113 [GatlingSystem-akka.actor.default-dispatcher-29] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:54.279 [GatlingSystem-akka.actor.default-dispatcher-55] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:54.435 [GatlingSystem-akka.actor.default-dispatcher-76] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:54.610 [GatlingSystem-akka.actor.default-dispatcher-95] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:54.781 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:54.935 [GatlingSystem-akka.actor.default-dispatcher-90] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.119 [GatlingSystem-akka.actor.default-dispatcher-14] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.242 [GatlingSystem-akka.actor.default-dispatcher-43] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.395 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.535 [GatlingSystem-akka.actor.default-dispatcher-64] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.677 [GatlingSystem-akka.actor.default-dispatcher-71] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.818 [GatlingSystem-akka.actor.default-dispatcher-91] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:55.957 [GatlingSystem-akka.actor.default-dispatcher-84] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.112 [GatlingSystem-akka.actor.default-dispatcher-30] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.240 [GatlingSystem-akka.actor.default-dispatcher-36] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.366 [GatlingSystem-akka.actor.default-dispatcher-50] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.492 [GatlingSystem-akka.actor.default-dispatcher-53] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.616 [GatlingSystem-akka.actor.default-dispatcher-61] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.737 [GatlingSystem-akka.actor.default-dispatcher-77] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.857 [GatlingSystem-akka.actor.default-dispatcher-74] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:56.988 [GatlingSystem-akka.actor.default-dispatcher-16] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.110 [GatlingSystem-akka.actor.default-dispatcher-28] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.233 [GatlingSystem-akka.actor.default-dispatcher-23] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.354 [GatlingSystem-akka.actor.default-dispatcher-65] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.479 [GatlingSystem-akka.actor.default-dispatcher-62] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.605 [GatlingSystem-akka.actor.default-dispatcher-85] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.727 [GatlingSystem-akka.actor.default-dispatcher-72] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.857 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:57.975 [GatlingSystem-akka.actor.default-dispatcher-103] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.099 [GatlingSystem-akka.actor.default-dispatcher-33] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.223 [GatlingSystem-akka.actor.default-dispatcher-88] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.352 [GatlingSystem-akka.actor.default-dispatcher-81] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.472 [GatlingSystem-akka.actor.default-dispatcher-67] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.601 [GatlingSystem-akka.actor.default-dispatcher-101] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.724 [GatlingSystem-akka.actor.default-dispatcher-100] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.863 [GatlingSystem-akka.actor.default-dispatcher-42] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:58.985 [GatlingSystem-akka.actor.default-dispatcher-99] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.113 [GatlingSystem-akka.actor.default-dispatcher-25] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.237 [GatlingSystem-akka.actor.default-dispatcher-26] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.362 [GatlingSystem-akka.actor.default-dispatcher-35] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.491 [GatlingSystem-akka.actor.default-dispatcher-37] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.609 [GatlingSystem-akka.actor.default-dispatcher-46] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.734 [GatlingSystem-akka.actor.default-dispatcher-75] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.864 [GatlingSystem-akka.actor.default-dispatcher-69] INFO  com.intuit.karate - karate.env system property was: null 
-11:22:59.982 [GatlingSystem-akka.actor.default-dispatcher-82] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.106 [GatlingSystem-akka.actor.default-dispatcher-58] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.217 [GatlingSystem-akka.actor.default-dispatcher-39] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.325 [GatlingSystem-akka.actor.default-dispatcher-104] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.434 [GatlingSystem-akka.actor.default-dispatcher-66] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.556 [GatlingSystem-akka.actor.default-dispatcher-38] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.651 [GatlingSystem-akka.actor.default-dispatcher-68] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.777 [GatlingSystem-akka.actor.default-dispatcher-86] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.885 [GatlingSystem-akka.actor.default-dispatcher-51] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:00.996 [GatlingSystem-akka.actor.default-dispatcher-13] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.103 [GatlingSystem-akka.actor.default-dispatcher-15] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.199 [GatlingSystem-akka.actor.default-dispatcher-92] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.303 [GatlingSystem-akka.actor.default-dispatcher-20] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.397 [GatlingSystem-akka.actor.default-dispatcher-48] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.508 [GatlingSystem-akka.actor.default-dispatcher-45] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.599 [GatlingSystem-akka.actor.default-dispatcher-47] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.711 [GatlingSystem-akka.actor.default-dispatcher-76] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.806 [GatlingSystem-akka.actor.default-dispatcher-87] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:01.895 [GatlingSystem-akka.actor.default-dispatcher-34] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.003 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.101 [GatlingSystem-akka.actor.default-dispatcher-78] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.207 [GatlingSystem-akka.actor.default-dispatcher-12] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.300 [GatlingSystem-akka.actor.default-dispatcher-11] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.409 [GatlingSystem-akka.actor.default-dispatcher-18] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.496 [GatlingSystem-akka.actor.default-dispatcher-79] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.606 [GatlingSystem-akka.actor.default-dispatcher-41] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.697 [GatlingSystem-akka.actor.default-dispatcher-80] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.809 [GatlingSystem-akka.actor.default-dispatcher-71] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:02.899 [GatlingSystem-akka.actor.default-dispatcher-91] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:03.007 [GatlingSystem-akka.actor.default-dispatcher-98] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:08.103 [GatlingSystem-akka.actor.default-dispatcher-92] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:09.108 [GatlingSystem-akka.actor.default-dispatcher-85] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:10.106 [GatlingSystem-akka.actor.default-dispatcher-53] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:11.112 [GatlingSystem-akka.actor.default-dispatcher-27] INFO  i.g.core.controller.inject.Injector - Scenario Create and Delete Article has finished injecting
-11:23:11.114 [GatlingSystem-akka.actor.default-dispatcher-27] INFO  i.g.core.controller.inject.Injector - Injecting is done
-11:23:11.123 [GatlingSystem-akka.actor.default-dispatcher-96] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:12.109 [GatlingSystem-akka.actor.default-dispatcher-12] INFO  com.intuit.karate - karate.env system property was: null 
-11:23:18.263 [GatlingSystem-akka.actor.default-dispatcher-79] INFO  i.g.core.controller.inject.Injector - All users of scenario Create and Delete Article are stopped
-11:23:18.264 [GatlingSystem-akka.actor.default-dispatcher-79] INFO  i.g.core.controller.inject.Injector - Stopping
-11:23:18.266 [GatlingSystem-akka.actor.default-dispatcher-36] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
-11:23:18.364 [main] INFO  i.gatling.charts.stats.LogFileReader - Collected List(C:\Users\Nadia\Documents\GitHub\KarateAutomateUdemy\target\gatling\perftest-20220227042225981\simulation.log) from perftest-20220227042225981
-11:23:18.385 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
-11:23:18.395 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 597 lines
-11:23:18.409 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
-11:23:18.470 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 597 lines
-07:41:30.367 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
-07:41:52.849 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:41:56.728 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:41:57.754 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:41:59.450 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:42:53.612 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:70
-When method GET
-too many retry attempts: 10
-classpath:conduitApp/feature/HomePage.feature:70
-07:42:53.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:42:59.783 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:42:59.882 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:00.166 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:07.602 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 7 (0 remaining) classpath:conduitApp/feature/HomePage.feature
-07:43:07.678 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:10.497 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomeWork.feature:23
-Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 640, url: https://api.realworld.io/api/articles/Create-a-new-implementation-1/favorite, response: 
-{"status":"error","message":"missing authorization credentials"}
-classpath:conduitApp/feature/HomeWork.feature:23
-07:43:10.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:11.998 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomeWork.feature:57
-And match response.comments[0].body == "apa aja boleh"
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.'
-  'apa aja boleh'
-
-classpath:conduitApp/feature/HomeWork.feature:57
-07:43:12.491 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 7 (0 remaining) classpath:conduitApp/feature/HomeWork.feature
-07:43:12.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:12.534 [main] INFO  com.intuit.karate - [print] This is first scenario 
-07:43:12.686 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
+08:38:12.886 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+08:38:15.362 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:15.374 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+08:38:16.839 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+08:38:17.569 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:18.571 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:20.406 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:21.314 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:27.253 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:27.263 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:27.297 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:28.408 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 7 (0 remaining) classpath:conduitApp/feature/HomePage.feature
+08:38:28.430 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:31.172 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:33.862 [main] INFO  com.intuit.karate - [print] jumlah comment terbaru: 2 
+08:38:34.599 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomeWork.feature:97
+Then status 204
+status code was: 200, expected: 204, response time in milliseconds: 734, url: https://api.realworld.io/api/articles/This-is-title-21074/comments/16982, response: 
+{}
+classpath:conduitApp/feature/HomeWork.feature:97
+08:38:34.894 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 7 (0 remaining) classpath:conduitApp/feature/HomeWork.feature
+08:38:34.901 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:34.907 [main] INFO  com.intuit.karate - [print] This is first scenario 
+08:38:34.945 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
 * def dataGenerator = Java.type('Helpers.DataGenerator')
 js failed:
 >>>>
@@ -220,7 +37,7 @@ org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/
 - java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
 
 classpath:helpers/dummy.feature:3
-07:43:12.721 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
+08:38:34.976 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
 >>>>
 01: function(){ karate.call('classpath:helpers/dummy.feature') }
 <<<<
@@ -238,16 +55,16 @@ org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/
 - java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
 
 classpath:helpers/dummy.feature:3
-- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:217)
-- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2013)
-- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1909)
-- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:163)
-- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:218)
+- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2181)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:2005)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:165)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:151)
 - <js>.:anonymous(Unnamed:1)
 
-07:43:12.750 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:12.768 [main] INFO  com.intuit.karate - [print] This is second scenario 
-07:43:12.832 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
+08:38:34.985 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:34.992 [main] INFO  com.intuit.karate - [print] This is second scenario 
+08:38:35.005 [main] ERROR com.intuit.karate - classpath:helpers/dummy.feature:3
 * def dataGenerator = Java.type('Helpers.DataGenerator')
 js failed:
 >>>>
@@ -263,7 +80,7 @@ org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/
 - java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
 
 classpath:helpers/dummy.feature:3
-07:43:12.839 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
+08:38:35.009 [main] WARN  com.intuit.karate - afterScenario hook failed: com.intuit.karate.KarateException: js failed:
 >>>>
 01: function(){ karate.call('classpath:helpers/dummy.feature') }
 <<<<
@@ -281,49 +98,86 @@ org.graalvm.polyglot.PolyglotException: java.lang.NoClassDefFoundError: helpers/
 - java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
 
 classpath:helpers/dummy.feature:3
-- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:217)
-- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2013)
-- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1909)
-- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:163)
-- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- com.intuit.karate.core.FeatureResult.getErrorMessagesCombined(FeatureResult.java:218)
+- com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2181)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:2005)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:165)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:151)
 - <js>.:anonymous(Unnamed:1)
 
-07:43:12.849 [main] INFO  com.intuit.karate - After feature test 
-07:43:13.177 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 7 (0 remaining) classpath:conduitApp/feature/Hooks.feature
-07:43:13.207 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.233 [main] INFO  com.intuit.karate - [print] [
+08:38:35.010 [main] INFO  com.intuit.karate - After feature test 
+08:38:35.189 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 7 (0 remaining) classpath:conduitApp/feature/Hooks.feature
+08:38:35.197 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.207 [main] INFO  com.intuit.karate - [print] [
   1,
   4,
   9
 ]
  
-07:43:13.245 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.265 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.290 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.339 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.391 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.415 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.693 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:13.709 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:14.113 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 7 (0 remaining) classpath:conduitApp/feature/JsonTransform.feature
-07:43:14.136 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:14.829 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/NewArticles.feature:23
+08:38:35.212 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.220 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.230 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.260 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.273 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.310 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.317 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.555 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 7 (0 remaining) classpath:conduitApp/feature/JsonTransform.feature
+08:38:35.562 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:37.638 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/NewArticles.feature:34
+Then status 204
+status code was: 200, expected: 204, response time in milliseconds: 570, url: https://api.realworld.io/api/articles/Hamish-the-Harper-21074, response: 
+{}
+classpath:conduitApp/feature/NewArticles.feature:34
+08:38:37.753 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 7 (0 remaining) classpath:conduitApp/feature/NewArticles.feature
+08:38:37.763 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:38.573 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:22
+And match response ==
+"""
+{
+    "user": {
+        "email": #(randomEmail),
+        "username": #(randomUname),
+        "bio": null,
+        "image": "#string",
+        "token": "#string"
+    }
+}
+"""
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"andera84@test.com","username":"mitsue.lubowitz","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuZGVyYTg0QHRlc3QuY29tIiwidXNlcm5hbWUiOiJtaXRzdWUubHVib3dpdHoiLCJpYXQiOjE2NTg1NDAzMTYsImV4cCI6MTY2MzcyNDMxNn0.GxOb_ytbfeKoE86cLKQK4x83ebW9UD089bsKHHtiaDU"}}
+  {"user":{"email":"andera84@test.com","username":"mitsue.lubowitz","bio":null,"image":"#string","token":"#string"}}
+
+    $.user | not equal | match failed for name: 'image' (MAP:MAP)
+    {"email":"andera84@test.com","username":"mitsue.lubowitz","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuZGVyYTg0QHRlc3QuY29tIiwidXNlcm5hbWUiOiJtaXRzdWUubHVib3dpdHoiLCJpYXQiOjE2NTg1NDAzMTYsImV4cCI6MTY2MzcyNDMxNn0.GxOb_ytbfeKoE86cLKQK4x83ebW9UD089bsKHHtiaDU"}
+    {"email":"andera84@test.com","username":"mitsue.lubowitz","bio":null,"image":"#string","token":"#string"}
+
+      $.user.image | not a string (NULL:STRING)
+      null
+      '#string'
+
+classpath:conduitApp/feature/SignUp.feature:22
+08:38:38.580 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:39.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:39.803 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:40.391 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:40.988 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:41.784 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 7 (0 remaining) classpath:conduitApp/feature/SignUp.feature
+08:38:41.793 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:42.431 [main] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticle.feature:25
 Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
-{"status":"error","message":"missing authorization credentials"}
-classpath:conduitApp/feature/NewArticles.feature:23
-07:43:15.074 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 7 (0 remaining) classpath:conduitApp/feature/NewArticles.feature
-07:43:15.094 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:15.976 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:16.714 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:17.732 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:18.364 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:19.052 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:20.046 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:conduitApp/feature/SignUp.feature
-07:43:20.068 [main] INFO  com.intuit.karate - karate.env system property was: null 
-07:43:20.810 [main] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticle.feature:25
-Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+status code was: 401, expected: 200, response time in milliseconds: 569, url: https://api.realworld.io/api/articles, response: 
 {"status":"error","message":"missing authorization credentials"}
 classpath:conduitApp/performance/createArticle.feature:25
-07:43:21.046 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 7 (0 remaining) classpath:conduitApp/performance/createArticle.feature
+08:38:42.493 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 7 (0 remaining) classpath:conduitApp/performance/createArticle.feature
+10:30:11.311 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+10:30:13.745 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1658547013743
+10:30:15.876 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:15.891 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+10:30:18.010 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+10:30:19.029 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:19.843 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:20.548 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:21.227 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:23.689 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:conduitApp/feature/SignUp.feature

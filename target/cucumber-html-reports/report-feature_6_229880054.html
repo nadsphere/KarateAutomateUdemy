@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Conduit Application</td>
-      <td>27 Feb 2022, 07:43</td>
+      <td>23 Jul 2022, 08:38</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="734409187">0.734</td>
+          <td class="duration" data-value="633744400">0.633</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.127</span>
+  <span class="lead-duration duration">0.058</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>07:43:20.070 karate.env system property was: null 
+        <pre>08:38:41.794 karate.env system property was: null 
 </pre>
       </div>
     </div>
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def articleReqBody = read('classpath:conduitApp/json/newArticleRequest.json')</span>
 
-  <span class="lead-duration duration">0.023</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -297,7 +297,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -324,7 +324,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">set articleReqBody.article.title = dataGenerator.getRandomArticleValues().title</span>
 
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">0.012</span>
 
 </div>
 
@@ -351,7 +351,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">set articleReqBody.article.description = dataGenerator.getRandomArticleValues().description</span>
 
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">0.013</span>
 
 </div>
 
@@ -378,7 +378,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">set articleReqBody.article.body = dataGenerator.getRandomArticleValues().body</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -405,7 +405,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def sleep = function(ms){java.lang.Thread.sleep(ms)}</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -432,7 +432,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def pause = karate.get('__gatling.pause', sleep)</span>
 
-  <span class="lead-duration duration">0.043</span>
+  <span class="lead-duration duration">0.018</span>
 
 </div>
 
@@ -470,7 +470,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.607</span>
+  <span class="lead-duration duration">0.575</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
@@ -594,7 +594,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">header karate-name = 'Create &amp; Delete Article'</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -621,7 +621,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">0.602</span>
+  <span class="lead-duration duration">0.571</span>
 
 </div>
 
@@ -663,7 +663,7 @@ $(document).ready(function() {
           <a>status</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+        <pre>status code was: 401, expected: 200, response time in milliseconds: 569, url: https://api.realworld.io/api/articles, response: 
 {&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}
 classpath:conduitApp/performance/createArticle.feature:25</pre>
       </div>
@@ -679,9 +679,9 @@ classpath:conduitApp/performance/createArticle.feature:25</pre>
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>07:43:20.811 classpath:conduitApp/performance/createArticle.feature:25
+        <pre>08:38:42.431 classpath:conduitApp/performance/createArticle.feature:25
 Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 597, url: https://api.realworld.io/api/articles, response: 
+status code was: 401, expected: 200, response time in milliseconds: 569, url: https://api.realworld.io/api/articles, response: 
 {&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}
 classpath:conduitApp/performance/createArticle.feature:25
 </pre>

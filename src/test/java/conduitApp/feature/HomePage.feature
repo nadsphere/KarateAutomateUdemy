@@ -94,6 +94,7 @@ Feature: Tests for the Home Page
     * def json2 = {"bar": #(parseInt(foo))}
     * match json2 == {"bar": 10}
 
+  
   Scenario: Convert double type to number
     * def foo = 10.00
     * def json2 = {"bar": #(~~parseInt(foo))}

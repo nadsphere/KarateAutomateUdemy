@@ -32,6 +32,7 @@ Feature: Sign up new user
     }
     """
 
+    @debug
   Scenario Outline: Validate Sign Up error messages
     Given path 'users'
     And request

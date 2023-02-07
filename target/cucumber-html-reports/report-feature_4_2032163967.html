@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Conduit Application</td>
-      <td>27 Feb 2022, 07:43</td>
+      <td>23 Jul 2022, 08:38</td>
     </tr>
   </tbody>
 </table>
@@ -127,9 +127,9 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">conduitApp/feature/NewArticles.feature</td>
-          <td      class="passed"    >9</td>
+          <td      class="passed"    >18</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >14</td>
+          <td     class="skipped"   >5</td>
           <td >0</td>
           <td >0</td>
           <td class="total">24</td>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="687973812">0.687</td>
+          <td class="duration" data-value="2072239200">2.072</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.125</span>
+  <span class="lead-duration duration">0.063</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>07:43:14.137 karate.env system property was: null 
+        <pre>08:38:35.563 karate.env system property was: null 
 </pre>
       </div>
     </div>
@@ -269,33 +269,6 @@ $(document).ready(function() {
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def articleReqBody = read('classpath:conduitApp/json/newArticleRequest.json')</span>
-
-  <span class="lead-duration duration">0.032</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
 
   <span class="lead-duration duration">0.003</span>
 
@@ -322,9 +295,36 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
+  <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
   <span class="name">set articleReqBody.article.title = dataGenerator.getRandomArticleValues().title</span>
 
-  <span class="lead-duration duration">0.052</span>
+  <span class="lead-duration duration">0.018</span>
 
 </div>
 
@@ -351,7 +351,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">set articleReqBody.article.description = dataGenerator.getRandomArticleValues().description</span>
 
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">0.023</span>
 
 </div>
 
@@ -416,7 +416,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.562</span>
+  <span class="lead-duration duration">2.008</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
@@ -513,7 +513,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">0.561</span>
+  <span class="lead-duration duration">0.589</span>
 
 </div>
 
@@ -536,7 +536,7 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
@@ -549,37 +549,9 @@ $(document).ready(function() {
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>status</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
-{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}
-classpath:conduitApp/feature/NewArticles.feature:23</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>07:43:14.831 classpath:conduitApp/feature/NewArticles.feature:23
-Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 555, url: https://api.realworld.io/api/articles, response: 
-{&quot;status&quot;:&quot;error&quot;,&quot;message&quot;:&quot;missing authorization credentials&quot;}
-classpath:conduitApp/feature/NewArticles.feature:23
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -591,7 +563,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-* skipped">
+<div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def articleId = response.article.slug</span>
 
@@ -618,7 +590,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">params {limit: 10, offset:0}</span>
 
@@ -645,7 +617,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">path 'articles'</span>
 
@@ -672,11 +644,11 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.845</span>
 
 </div>
 
@@ -699,7 +671,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
@@ -726,7 +698,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response.articles[0].title == articleReqBody.article.title</span>
 
@@ -753,7 +725,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">path 'articles',articleId</span>
 
@@ -780,11 +752,11 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">method DELETE</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.570</span>
 
 </div>
 
@@ -807,7 +779,7 @@ classpath:conduitApp/feature/NewArticles.feature:23
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">status 204</span>
 
@@ -820,9 +792,37 @@ classpath:conduitApp/feature/NewArticles.feature:23
 
 
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
+          <a>status</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details  in ">
+        <pre>status code was: 200, expected: 204, response time in milliseconds: 570, url: https://api.realworld.io/api/articles/Hamish-the-Harper-21074, response: 
+{}
+classpath:conduitApp/feature/NewArticles.feature:34</pre>
+      </div>
+    </div>
+  </div>
 
 
 
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>08:38:37.638 classpath:conduitApp/feature/NewArticles.feature:34
+Then status 204
+status code was: 200, expected: 204, response time in milliseconds: 570, url: https://api.realworld.io/api/articles/Hamish-the-Harper-21074, response: 
+{}
+classpath:conduitApp/feature/NewArticles.feature:34
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
